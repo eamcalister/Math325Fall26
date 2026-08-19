@@ -9,16 +9,16 @@
         <cell>Assignment Category</cell> <cell>Weight</cell>
       </row>
       <row>
-        <cell>Webwork (Online Homework System)</cell> <cell>25%</cell>
+        <cell>Homework</cell> <cell>50%</cell>
       </row>
       <row>
-        <cell>Weekly Activities</cell> <cell>10%</cell>
+        <cell>Class Paricipation</cell> <cell>15%</cell>
       </row>
       <row>
-        <cell>Three Midterm Exams</cell> <cell>15% each</cell>
+        <cell>Term Project</cell> <cell>30% each</cell>
       </row>
       <row>
-        <cell>Cumulative Final Exam</cell> <cell>20%</cell>
+        <cell>Reflection Essay</cell> <cell>5%</cell>
       </row>
     </tabular>
     <p>
@@ -67,51 +67,28 @@
     </tabular>
 
   
-  <paragraphs xml:id="webwork">
-    <title>Webwork</title>
+  <paragraphs xml:id="homework">
+    <title>Homework</title>
     <p>
-      Webwork is our online homework system. An account has been created for you and a link posted on Canvas. You should check Webwork every class day for new assignments. Their due dates are posted with the assignment. Typically, Webwork assignments will be due at 11:59pm two business days after that section's material has been completed in class. Thus, we have the following:
-    </p>
-    <tabular>
-      <row header="yes">
-        <cell>Day</cell><cell>Day Due</cell>
-      </row>
-      <row>
-        <cell>Monday</cell><cell>Wednesday</cell>
-      </row>
-      <row>
-        <cell>Wednesday</cell><cell>Friday</cell>
-      </row>
-      <row>
-      <cell>Thursday</cell><cell>Monday</cell>
-      </row>
-      <row>
-        <cell>Friday</cell><cell>Tuesday</cell>
-      </row>
-    </tabular>
-    <p>
-      After the due date there will be a reduced credit period of 48 hours for each Webwork assignment in which you can receive 75% credit on all work completed.
-    </p>
-    <p>
-      Because online homework tells you if your answer is right or wrong as soon as you submit it, and for most questions you will be allowed multiple submissions, doing online homework may take you longer than doing written homework. So, give yourself plenty of time by starting your homework ASAP after it is assigned. This will give you time to do the assignment and get help if you need it.
+    Homework will be assigned (almost) daily. It will consist of problems related to the material we are discussing. Typically, each day's assigned homework will be due, on Canvas, on the day of the next class period. In some cases, a more significant assignment will be given (a "mini-project"). For those, the main deliverable will be an in-class presentation which will be graded with a rubric given at the time of the assignment.
     </p>
   </paragraphs>
-  <paragraphs xml:id="weekly-activities">
-    <title>Weekly Activities</title>
+  <paragraphs xml:id="participation">
+    <title>Class Participation</title>
     <p>
-      Each week, typically on Thursdays, class time will be spent on an activity (such as a worksheet) intended to bring together material we have learned in the last week. Group work will be encouraged, but each student must turn in their own assignment.
+      An important part of history is a discussion of the actual history and how it relates to our own experience. Given this, attendance is mandatory and a participation grade will be given daily.
     </p>
   </paragraphs>
-  <paragraphs xml:id="midterm-exams">
-    <title>Midterm Exams</title>
+  <paragraphs xml:id="term-project">
+    <title>Term Project</title>
     <p>
-      There will be three midterm exams given in class on 9/19, 10/17, and 11/4. The class day before exams will be reserved for review. 
+      Each student will complete a term project about some piece of the history of mathematics. Details will be given in the coming weeks. Oral presentations will be given the last week of class.
     </p>
   </paragraphs>
-  <paragraphs xml:id="final">
-    <title>Cumulative Final Exam</title>
+  <paragraphs xml:id="reflection">
+    <title>Reflection Essay</title>
     <p>
-      Your cumulative final exam will be Wednesday, December 10, from 7:30-9:30am. The room will be announced prior to the final exam.
+      In lieu of a final exam, you will be asked to write a reflection paper and participate in a class discussion during the final exam period.
     </p>
   </paragraphs>
 </section>
