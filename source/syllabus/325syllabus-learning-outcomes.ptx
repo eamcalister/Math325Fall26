@@ -1,0 +1,61 @@
+
+  <section xml:id="los"><title>Learning Outcomes</title>
+  <!--This version of the learning outcomes is for Math 121 and is GTPathways compliant.-->
+  <paragraphs xml:id="clos">
+    <title>Course Learning Outcomes</title>
+    <p>
+        This class is designed to provide mathematicians and teachers of mathematics the following:
+      <ul>
+        <li>
+          <p>
+            Familiarity with the historical development of important mathematical concepts over time.
+          </p>
+        </li>
+        <li>
+          <p>
+            The ability to approach mathematical concepts from many different perspectives, including
+          </p>
+          <ol>
+            <li>
+                <p>
+                    problem solving, as a basis for the initial development of many concepts;
+                </p>
+            </li>
+            <li>
+                <p>
+                    mathematics as a human endeavor, and the role of individuals with their insights and idiosyncrasies;
+                </p>
+            </li>
+            <li>
+                <p>
+                    the impact of social, economic, and cultural forces on mathematical study and creativity;
+                </p>
+            </li>
+            <li>
+                <p>
+                    the broad shifts in the mathematical community on what problems are most important and what a mathematical proof looks like;
+                </p>
+            </li>
+            <li>
+                <p>
+                    the gradual development of standard notations and terminology;
+                </p>
+            </li>
+            <li>
+                <p>
+                    the close interrelation of the development of various branches of mathematics.
+                </p>
+            </li>
+          </ol>
+        </li>
+        <li>
+          <p>
+            An appreciation of the dynamic nature of mathematics, including recent developments in modern mathematics and its continuing evolution, as influenced by current technology and culture.
+          </p>
+        </li>
+        
+      </ul>
+    </p>
+  </paragraphs>
+
+</section>
