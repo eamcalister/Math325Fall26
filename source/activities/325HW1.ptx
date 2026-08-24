@@ -19,7 +19,42 @@
             </exercise>
 
             <exercise>
-            
+                <introduction>
+                    <p>
+                        The goal of this problem is to possibly make better sense of Babylonian reciprocals by thinking about our own number system without zero or explicit place values.
+                    </p>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Describe how our number system would work if we used the symbols <m>1, 2, 3, 4, 5, 6, 7, 8, 9</m>. (Your answer should be maybe a couple short paragraphs, with some examples of numbers written normally and not.)
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            In the number system from above, find the reciprocals of <m>2</m>, <m>4</m>, <m>5</m>, and <m>8</m>.
+                        </p>
+                    </statement>
+                </task>
 
             </exercise>
+
+            <exercise>
+                <statement>
+                    <p>
+                        Find the Babylonian reciprocal of <m>48</m>.
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise>
+                <statement>
+                    <p>
+                        Do you think mathematics (what existed at the time) was really accessible to the masses in ancient Mespotamia? Do you think it was more or less accesible than mathematics of today? Explain.
+                    </p>
+                </statement>
+            </exercise>
+
         </worksheet>
