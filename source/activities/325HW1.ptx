@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet margin="1in" bottom="1.25cm" xml:id="Activity-title">
+            <title>Math 325 Homework 1</title>
+
+            <introduction>
+                <p>
+                    Due August 28, 2026 (submission on Canvas).
+                </p>
+            </introduction>
+
+            <exercise>
+                <statement>
+                    <p>
+                        The Babylonian tablet YBC7289 gives an approximation for <m>\sqrt{2}</m> as <m>1,24,51,10</m>. Calculate this as an exact fraction (noting how you know order of magnitude) in our modern number system. When you plug this into a caclulator, how accurate is it?
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise>
+            
+
+            </exercise>
+        </worksheet>
