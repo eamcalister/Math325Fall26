@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet margin="1in" bottom="1.25cm" xml:id="325HW2">
+            <title>Math 325 Homework 1</title>
+
+            <introduction>
+                <p>
+                    Due August 31, 2026 (submission on Canvas).
+                </p>
+            </introduction>
+
+            <exercise>
+                <statement>
+                    <p>
+                        Carefully solve the following stone weighing problem by false position (as demonstrated in class):
+                    </p>
+                    <blockquote>
+                        <p>
+                            I found a stone and did not weight it; after I subtracted <m>\frac{1}{7}</m> and then <m>\frac{1}{13}</m> (of the previous difference), it weighed <m>60</m> gin. How much did the original stone weigh?
+                        </p>
+                    </blockquote>
+                    <p>
+                        Do this carefully, as the Babylonians would have. If you need to divide, multiply by the appropriate Babylonian reciprocal. When you get your final answer, express it as a sexagesimal number and explain how you know its order of magnitude.
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise>
+                <statement>
+                    <p>
+                    One of the features of many Babylonian tablets is that they seem to be ``useless'', fake real world problems to demonstrate a mathematical technique. Now think of your own mathematical education. Try to find an example (say, in a Calculus book) of something similar (explain why you think it's similar). Do you think this is a good teaching method? Why or why not?
+                    </p>
+                </statement>
+            </exercise>
+
+        </worksheet>
