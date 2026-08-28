@@ -60,8 +60,8 @@ var ptx_lunr_docs = [
   "url": "325HW2.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Math 325 Homework 1",
-  "body": " Math 325 Homework 1   Due August 31, 2026 (submission on Canvas).     Carefully solve the following stone weighing problem by false position (as demonstrated in class):   I found a stone and did not weight it; after I subtracted and then (of the previous difference), it weighed gin. How much did the original stone weigh?   Do this carefully, as the Babylonians would have. If you need to divide, multiply by the appropriate Babylonian reciprocal. When you get your final answer, express it as a sexagesimal number and explain how you know its order of magnitude.      One of the features of many Babylonian tablets is that they seem to be ``useless'', fake real world problems to demonstrate a mathematical technique. Now think of your own mathematical education. Try to find an example (say, in a Calculus book) of something similar (explain why you think it's similar). Do you think this is a good teaching method? Why or why not?    "
+  "title": "Math 325 Homework 2",
+  "body": " Math 325 Homework 2   Due August 31, 2026 (submission on Canvas).     Carefully solve the following stone weighing problem by false position (as demonstrated in class):   I found a stone and did not weight it; after I subtracted and then (of the previous difference), it weighed gin. How much did the original stone weigh?   Do this carefully, as the Babylonians would have. If you need to divide, multiply by the appropriate Babylonian reciprocal. When you get your final answer, express it as a sexagesimal number and explain how you know its order of magnitude.      One of the features of many Babylonian tablets is that they seem to be ``useless'', fake real world problems to demonstrate a mathematical technique. Now think of your own mathematical education. Try to find an example (say, in a Calculus book) of something similar (explain why you think it's similar). Do you think this is a good teaching method? Why or why not?    "
 },
 {
   "id": "325HW2-3",
