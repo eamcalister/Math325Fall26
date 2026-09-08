@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: salem                          *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Euclid Mini-Project Worksheet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/print-worksheet.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://eamcalister.github.io/FLCMathSampleCourse/worksheets/external/./FortLewisCollege_FullColor.png">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.2.10';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.e3f9706509fcf6f7.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.c5ba0ffa5f963084.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.efe427683fc41f98.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext article ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href="https://www.fortlewis.edu/"><img src="external/./FortLewisCollege_FullColor.png" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="sec-section-name.html"><span class="title">Math 325 Homework</span></a></h1>
+<p class="byline">Mathematics Department<br>Fort Lewis College</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="embed-button" class="embed-button button" title="Embed this page"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><div class="embed-popup hidden" id="embed-popup">
+<p>Copy the code below to embed this page in your own website or LMS page.</p>
+<div class="embed-code-container">
+<textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div>
+</div>
+<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="325HW2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="sec-section-name.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth1 focused" data-preexpanded-levels="0" data-max-levels="1"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="325HW1.html" class="internal"><span class="title">Math 325 Homework 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="325HW2.html" class="internal"><span class="title">Math 325 Homework 2</span></a></div></li>
+<li class="toc-item toc-worksheet contains-active">
+<div class="toc-title-box"><a href="euclid-mini-project.html" class="internal"><span class="title">Euclid Mini-Project Worksheet</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="euclid-mini-project.html#presentation-requirements" class="internal"><span class="title">Presentation Requirements</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="euclid-mini-project.html#book-vii-definitions" class="internal"><span class="title">Attention to Book VII Definitions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="euclid-mini-project.html#available-propositions" class="internal"><span class="title">Available Propositions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="euclid-mini-project.html#vii-1" class="internal"><span class="title">1. Book VII, Proposition 1: Recognizing Relatively Prime Numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="euclid-mini-project.html#vii-2" class="internal"><span class="title">2. Book VII, Proposition 2: Finding the Greatest Common Measure</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="euclid-mini-project.html#vii-30" class="internal"><span class="title">3. Book VII, Proposition 30: Euclid’s Lemma</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="euclid-mini-project.html#vii-31" class="internal"><span class="title">4. Book VII, Proposition 31: A Composite Number Has a Prime Measure</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="euclid-mini-project.html#vii-32" class="internal"><span class="title">5. Book VII, Proposition 32: Prime or Measured by a Prime</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="euclid-mini-project.html#peer-assessment" class="internal"><span class="title">Peer Assessment</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<div class="print-preview-header">
+<h2 class="print-preview">Print preview</h2>
+<div class="print-controls">
+<div class="print-controls-toggles">
+<form class="papersize-select" id="papersize-select">
+<span class="name">Paper size</span><label><input type="radio" name="papersize" value="a4">A4
+        </label><label><input type="radio" name="papersize" value="letter">Letter
+        </label>
+</form>
+<label for="highlight-workspace-checkbox">Highlight workspace</label><input type="checkbox" id="highlight-workspace-checkbox">
+</div>
+<button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
+</div>
+</div>
+<section class="worksheet" id="euclid-mini-project" data-margins="0.75in 0.75in 0.75in 0.75in"><h1 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Euclid Mini-Project Worksheet</span><div class="print-links"><a href="euclid-mini-project-printable.html" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h1>
+<section class="introduction" id="euclid-mini-project-2"><h3 class="heading">Overview.<span></span>
+</h3>
+<div class="para" id="euclid-mini-project-2-2">This mini-project will be delivered as an oral presentation in class. Each student will present one of the propositions listed below and will be graded by classmates and the professor. Peer scores will contribute to the presentation grade, but the professor will review them for consistency and may adjust the resulting score when necessary.<div class="autopermalink" data-description="Paragraph"><a href="#euclid-mini-project-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="euclid-mini-project-2-3">The propositions come primarily from Book VII of Euclid’s <em class="emphasis">Elements</em>. Many express facts that you may have encountered in modern form in a course such as discrete mathematics, number theory, or abstract algebra. Your task is not simply to reproduce the modern theorem. You must understand Euclid’s statement and argument within his own system of definitions, terminology, and previously established propositions.<div class="autopermalink" data-description="Paragraph"><a href="#euclid-mini-project-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="euclid-mini-project-2-4">The primary translation of Euclid used in this course is David Joyce’s online edition of the Elements: <a class="external" href="https://mathcs.clarku.edu/~djoyce/java/elements/toc.html" target="_blank">Euclid’s Elements (David Joyce)</a>.<div class="autopermalink" data-description="Paragraph"><a href="#euclid-mini-project-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="section" id="presentation-requirements"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Presentation Requirements</span>
+</h2>
+<div class="para" id="presentation-requirements-2">Your presentation should address each of the following points. Specifics are given in each available proposition.<div class="autopermalink" data-description="Paragraph"><a href="#presentation-requirements-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ol class="decimal" id="presentation-requirements-3">
+<li id="presentation-requirements-3-1">
+<div class="para" id="presentation-requirements-3-1-1">Definitions and statement. Identify and explain every important technical term in the proposition. State the relevant Book VII definitions in Euclid’s language, then explain what they mean. Pay particular attention to terms whose Euclidean meaning differs from current usage.<div class="autopermalink" data-description="Paragraph"><a href="#presentation-requirements-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1"><a href="#presentation-requirements-3-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="presentation-requirements-3-2">
+<div class="para" id="presentation-requirements-3-2-1">Modern translation. Restate the proposition in modern mathematical language and notation. Explain whether your modern version is exactly equivalent to Euclid’s statement or whether it changes the statement in some way.<div class="autopermalink" data-description="Paragraph"><a href="#presentation-requirements-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2"><a href="#presentation-requirements-3-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li id="presentation-requirements-3-3">
+<div class="para" id="presentation-requirements-3-3-1">Informal reason or example. Give an informal reason that the proposition should be true before presenting its formal proof. A carefully chosen numerical example may be useful, but it should illuminate the general argument rather than replace it.<div class="autopermalink" data-description="Paragraph"><a href="#presentation-requirements-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3"><a href="#presentation-requirements-3-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+<li id="presentation-requirements-3-4">
+<div class="para" id="presentation-requirements-3-4-1">Proof. Present Euclid’s proof without merely reading the text of the <em class="emphasis">Elements</em>. Explain the critical steps in an insightful way so that your audience will be able to read and understand the original proof with relative ease, if not reconstruct the argument for themselves. Clearly distinguish between Euclid’s argument, your explanation of that argument, and any modern proof or justification you add.<div class="autopermalink" data-description="Paragraph"><a href="#presentation-requirements-3-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 4"><a href="#presentation-requirements-3-4" title="Copy heading and permalink for Item 4" aria-label="Copy heading and permalink for Item 4">🔗</a></div>
+</li>
+<li id="presentation-requirements-3-5">
+<div class="para" id="presentation-requirements-3-5-1">Connections and dependencies. Explain the important definitions and earlier propositions used in the proof. Also describe an important proposition that follows from your result, or connect the result to a theorem or method that you have encountered in a modern mathematics course. Address the specific notes listed with your assigned proposition.<div class="autopermalink" data-description="Paragraph"><a href="#presentation-requirements-3-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 5"><a href="#presentation-requirements-3-5" title="Copy heading and permalink for Item 5" aria-label="Copy heading and permalink for Item 5">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Section: Presentation Requirements"><a href="#presentation-requirements" title="Copy heading and permalink for Section: Presentation Requirements" aria-label="Copy heading and permalink for Section: Presentation Requirements">🔗</a></div></section><section class="section" id="book-vii-definitions"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Attention to Book VII Definitions</span>
+</h2>
+<div class="para" id="book-vii-definitions-2">Euclid’s arithmetic is not written in the language of sets, divisibility notation, or prime factorization. Definitions are therefore part of the mathematical work, not merely vocabulary to be recited. Depending on your proposition, you may need to study terms such as:<div class="autopermalink" data-description="Paragraph"><a href="#book-vii-definitions-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b0 r0 l0 t0 lines">unit</td>
+<td class="l m b0 r0 l0 t0 lines">number</td>
+<td class="l m b0 r0 l0 t0 lines">measures</td>
+<td class="l m b0 r0 l0 t0 lines">multiple</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">part</td>
+<td class="l m b0 r0 l0 t0 lines">parts</td>
+<td class="l m b0 r0 l0 t0 lines">prime number</td>
+<td class="l m b0 r0 l0 t0 lines">relatively prime numbers</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">composite number</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+</table></div>
+<div class="para" id="book-vii-definitions-4">When discussing a definition, address the following questions when relevant:<div class="autopermalink" data-description="Paragraph"><a href="#book-vii-definitions-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="book-vii-definitions-5">
+<li id="book-vii-definitions-5-1">
+<div class="para" id="book-vii-definitions-5-1-1">What objects fall under the definition?<div class="autopermalink" data-description="Paragraph"><a href="#book-vii-definitions-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#book-vii-definitions-5-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="book-vii-definitions-5-2">
+<div class="para" id="book-vii-definitions-5-2-1">What objects are excluded?<div class="autopermalink" data-description="Paragraph"><a href="#book-vii-definitions-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#book-vii-definitions-5-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="book-vii-definitions-5-3">
+<div class="para" id="book-vii-definitions-5-3-1">How is the definition used in the proposition or proof?<div class="autopermalink" data-description="Paragraph"><a href="#book-vii-definitions-5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#book-vii-definitions-5-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="book-vii-definitions-5-4">
+<div class="para" id="book-vii-definitions-5-4-1">Is the definition equivalent to its usual modern counterpart?<div class="autopermalink" data-description="Paragraph"><a href="#book-vii-definitions-5-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#book-vii-definitions-5-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="book-vii-definitions-5-5">
+<div class="para" id="book-vii-definitions-5-5-1">What interpretive difficulty might a modern reader encounter?<div class="autopermalink" data-description="Paragraph"><a href="#book-vii-definitions-5-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#book-vii-definitions-5-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Section: Attention to Book VII Definitions"><a href="#book-vii-definitions" title="Copy heading and permalink for Section: Attention to Book VII Definitions" aria-label="Copy heading and permalink for Section: Attention to Book VII Definitions">🔗</a></div></section><section class="section" id="available-propositions"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Available Propositions</span>
+</h2>
+<div class="para" id="available-propositions-2">The propositions will be presented in the order listed. If you want to present first, choose the first available proposition.<div class="autopermalink" data-description="Paragraph"><a href="#available-propositions-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<section class="subsection" id="vii-1"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">1. Book VII, Proposition 1: Recognizing Relatively Prime Numbers</span>
+</h3>
+<div class="para" id="vii-1-2">Euclid’s statement: When two unequal numbers are set out, and the less is continually subtracted in turn from the greater, if the number which is left never measures the one before it until a unit is left, then the original numbers are relatively prime.<div class="autopermalink" data-description="Paragraph"><a href="#vii-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="vii-1-3">Tasks:<div class="autopermalink" data-description="Paragraph"><a href="#vii-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ol class="decimal" id="vii-1-4">
+<li id="vii-1-4-1">
+<div class="para" id="vii-1-4-1-1">Explain the definitions of “measures,” “unit,” and “relatively prime” in modern notation and language.<div class="autopermalink" data-description="Paragraph"><a href="#vii-1-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1"><a href="#vii-1-4-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="vii-1-4-2">
+<div class="para" id="vii-1-4-2-1">Carefully restate the result as an “if-then” statement in terms of the Euclidean Algorithm.<div class="autopermalink" data-description="Paragraph"><a href="#vii-1-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2"><a href="#vii-1-4-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li id="vii-1-4-3">
+<div class="para" id="vii-1-4-3-1">Give an example or two to show how the proposition is useful for showing two numbers are relatively prime.<div class="autopermalink" data-description="Paragraph"><a href="#vii-1-4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3"><a href="#vii-1-4-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+<li id="vii-1-4-4">
+<div class="para" id="vii-1-4-4-1">Present Euclid’s proof.<div class="autopermalink" data-description="Paragraph"><a href="#vii-1-4-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 4"><a href="#vii-1-4-4" title="Copy heading and permalink for Item 4" aria-label="Copy heading and permalink for Item 4">🔗</a></div>
+</li>
+<li id="vii-1-4-5">
+<div class="para" id="vii-1-4-5-1">Euclid writes only three subtraction stages. Explain how a modern mathematician would justify the argument when there are <span class="process-math">\(n\)</span> stages.<div class="autopermalink" data-description="Paragraph"><a href="#vii-1-4-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 5"><a href="#vii-1-4-5" title="Copy heading and permalink for Item 5" aria-label="Copy heading and permalink for Item 5">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Subsection: 1. Book VII, Proposition 1: Recognizing Relatively Prime Numbers"><a href="#vii-1" title="Copy heading and permalink for Subsection: 1. Book VII, Proposition 1: Recognizing Relatively Prime Numbers" aria-label="Copy heading and permalink for Subsection: 1. Book VII, Proposition 1: Recognizing Relatively Prime Numbers">🔗</a></div></section><section class="subsection" id="vii-2"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">2. Book VII, Proposition 2: Finding the Greatest Common Measure</span>
+</h3>
+<div class="para" id="vii-2-2">Euclid’s task: Given two numbers not relatively prime, find their greatest common measure.<div class="autopermalink" data-description="Paragraph"><a href="#vii-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="vii-2-3">Modern connection: Computing <span class="process-math">\(\gcd(a,b)\)</span> with the Euclidean algorithm.<div class="autopermalink" data-description="Paragraph"><a href="#vii-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="vii-2-4">Tasks:<div class="autopermalink" data-description="Paragraph"><a href="#vii-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ol class="decimal" id="vii-2-5">
+<li id="vii-2-5-1">
+<div class="para" id="vii-2-5-1-1">Demonstrate the modern division-based Euclidean Algorithm with two nontrivial integers that are not relatively prime. Explain how each division step abbreviates one or more of Euclid’s repeated-subtraction steps.<div class="autopermalink" data-description="Paragraph"><a href="#vii-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1"><a href="#vii-2-5-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="vii-2-5-2">
+<div class="para" id="vii-2-5-2-1">Present Euclid’s proof. This proof comes in two parts:<div class="autopermalink" data-description="Paragraph"><a href="#vii-2-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="vii-2-5-2-2">
+<li id="vii-2-5-2-2-1">
+<div class="para" id="vii-2-5-2-2-1-1">The last nonzero remainder measures the two given numbers.<div class="autopermalink" data-description="Paragraph"><a href="#vii-2-5-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#vii-2-5-2-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="vii-2-5-2-2-2">
+<div class="para" id="vii-2-5-2-2-2-1">The last nonzero remainder measures all other numbers that measure the two given numbers.<div class="autopermalink" data-description="Paragraph"><a href="#vii-2-5-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#vii-2-5-2-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Item 2"><a href="#vii-2-5-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li id="vii-2-5-3">
+<div class="para" id="vii-2-5-3-1">What hidden fact about the natural numbers is required to justify that the subtraction process cannot continue forever?<div class="autopermalink" data-description="Paragraph"><a href="#vii-2-5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3"><a href="#vii-2-5-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Subsection: 2. Book VII, Proposition 2: Finding the Greatest Common Measure"><a href="#vii-2" title="Copy heading and permalink for Subsection: 2. Book VII, Proposition 2: Finding the Greatest Common Measure" aria-label="Copy heading and permalink for Subsection: 2. Book VII, Proposition 2: Finding the Greatest Common Measure">🔗</a></div></section><section class="subsection" id="vii-30"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">3. Book VII, Proposition 30: Euclid’s Lemma</span>
+</h3>
+<div class="para" id="vii-30-2">Euclid’s statement: If two numbers by multiplying one another make some number, and any prime number measures the product, then it also measures one of the original numbers.<div class="autopermalink" data-description="Paragraph"><a href="#vii-30-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="vii-30-3">Modern connection: If <span class="process-math">\(p\)</span> is prime and <span class="process-math">\(p\mid ab\text{,}\)</span> then <span class="process-math">\(p\mid a\)</span> or <span class="process-math">\(p\mid b\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#vii-30-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="vii-30-4">Tasks:<div class="autopermalink" data-description="Paragraph"><a href="#vii-30-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ol class="decimal" id="vii-30-5">
+<li id="vii-30-5-1">
+<div class="para" id="vii-30-5-1-1">Explain why the primality hypothesis matters and give a counterexample when it is removed.<div class="autopermalink" data-description="Paragraph"><a href="#vii-30-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1"><a href="#vii-30-5-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="vii-30-5-2">
+<div class="para" id="vii-30-5-2-1">Present Euclid’s proof. You may use the propositions on which it depends without proof, but you must explain their meaning.<div class="autopermalink" data-description="Paragraph"><a href="#vii-30-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2"><a href="#vii-30-5-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li id="vii-30-5-3">
+<div class="para" id="vii-30-5-3-1">A modern proof of Euclid’s Lemma depends on Bézout’s Identity, which says that if <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> are relatively prime, then there are integers <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> such that<div class="autopermalink" data-description="Paragraph"><a href="#vii-30-5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="vii-30-5-3-2">
+\begin{equation*}
+ax+by=1.
+\end{equation*}
+</div>
+<div class="para" id="vii-30-5-3-3">Use this fact to prove the following modern version of Proposition VII.20:<div class="autopermalink" data-description="Paragraph"><a href="#vii-30-5-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<blockquote class="blockquote" id="vii-30-5-3-4">
+<div class="para" id="vii-30-5-3-4-1">If <span class="process-math">\(\frac{a}{b}=\frac{c}{d}\text{,}\)</span> and <span class="process-math">\(c\)</span> and <span class="process-math">\(d\)</span> are relatively prime, then there is a positive integer <span class="process-math">\(k\)</span> such that <span class="process-math">\(a=kc\)</span> and <span class="process-math">\(b=kd\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#vii-30-5-3-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Quotation"><a href="#vii-30-5-3-4" title="Copy heading and permalink for Quotation" aria-label="Copy heading and permalink for Quotation">🔗</a></div>
+</blockquote>
+<div class="para" id="vii-30-5-3-5">Note: The hypothesis that <span class="process-math">\(c\)</span> and <span class="process-math">\(d\)</span> are relatively prime is guaranteed by VII.22. Is that acceptable to use?<div class="autopermalink" data-description="Paragraph"><a href="#vii-30-5-3-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3"><a href="#vii-30-5-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Subsection: 3. Book VII, Proposition 30: Euclid’s Lemma"><a href="#vii-30" title="Copy heading and permalink for Subsection: 3. Book VII, Proposition 30: Euclid’s Lemma" aria-label="Copy heading and permalink for Subsection: 3. Book VII, Proposition 30: Euclid’s Lemma">🔗</a></div></section><section class="subsection" id="vii-31"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">4. Book VII, Proposition 31: A Composite Number Has a Prime Measure</span>
+</h3>
+<div class="para" id="vii-31-2">Euclid’s statement: Any composite number is measured by some prime number.<div class="autopermalink" data-description="Paragraph"><a href="#vii-31-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="vii-31-3">Modern connection: Every composite integer has a prime divisor.<div class="autopermalink" data-description="Paragraph"><a href="#vii-31-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="vii-31-4">Tasks:<div class="autopermalink" data-description="Paragraph"><a href="#vii-31-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ol class="decimal" id="vii-31-5">
+<li id="vii-31-5-1">
+<div class="para" id="vii-31-5-1-1">Explain Euclid’s definitions of prime and composite number.<div class="autopermalink" data-description="Paragraph"><a href="#vii-31-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1"><a href="#vii-31-5-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="vii-31-5-2">
+<div class="para" id="vii-31-5-2-1">Present Euclid’s proof. In doing so, carefully explain how the argument rules out an endless sequence of successively smaller measures.<div class="autopermalink" data-description="Paragraph"><a href="#vii-31-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2"><a href="#vii-31-5-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li id="vii-31-5-3">
+<div class="para" id="vii-31-5-3-1">Discuss how this proposition differs from simply assuming the existence of a prime factorization.<div class="autopermalink" data-description="Paragraph"><a href="#vii-31-5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3"><a href="#vii-31-5-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Subsection: 4. Book VII, Proposition 31: A Composite Number Has a Prime Measure"><a href="#vii-31" title="Copy heading and permalink for Subsection: 4. Book VII, Proposition 31: A Composite Number Has a Prime Measure" aria-label="Copy heading and permalink for Subsection: 4. Book VII, Proposition 31: A Composite Number Has a Prime Measure">🔗</a></div></section><section class="subsection" id="vii-32"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">5. Book VII, Proposition 32: Prime or Measured by a Prime</span>
+</h3>
+<div class="para" id="vii-32-2">Euclid’s statement: Any number is either prime or is measured by some prime number.<div class="autopermalink" data-description="Paragraph"><a href="#vii-32-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="vii-32-3">Modern connection: Every integer greater than <span class="process-math">\(1\)</span> is prime or has a prime divisor.<div class="autopermalink" data-description="Paragraph"><a href="#vii-32-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="vii-32-4">Tasks:<div class="autopermalink" data-description="Paragraph"><a href="#vii-32-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ol class="decimal" id="vii-32-5">
+<li id="vii-32-5-1">
+<div class="para" id="vii-32-5-1-1">Compare this statement with VII.31. Why does Euclid give both propositions?<div class="autopermalink" data-description="Paragraph"><a href="#vii-32-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1"><a href="#vii-32-5-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="vii-32-5-2">
+<div class="para" id="vii-32-5-2-1">Explain Euclid’s proof. Explain how Euclid’s definition of number determines the modern restriction <span class="process-math">\(n&gt;1\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#vii-32-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2"><a href="#vii-32-5-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li id="vii-32-5-3">
+<div class="para" id="vii-32-5-3-1">Explain why this proposition does not yet prove either the existence or the uniqueness of a complete prime factorization. What additional argument would be needed to pass from “has a prime measure” to “is a product of primes”?<div class="autopermalink" data-description="Paragraph"><a href="#vii-32-5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3"><a href="#vii-32-5-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Subsection: 5. Book VII, Proposition 32: Prime or Measured by a Prime"><a href="#vii-32" title="Copy heading and permalink for Subsection: 5. Book VII, Proposition 32: Prime or Measured by a Prime" aria-label="Copy heading and permalink for Subsection: 5. Book VII, Proposition 32: Prime or Measured by a Prime">🔗</a></div></section><div class="autopermalink" data-description="Section: Available Propositions"><a href="#available-propositions" title="Copy heading and permalink for Section: Available Propositions" aria-label="Copy heading and permalink for Section: Available Propositions">🔗</a></div></section><section class="section" id="peer-assessment"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Peer Assessment</span>
+</h2>
+<div class="para" id="peer-assessment-2">After each presentation, take careful notes and assign the presenting group a score from 1 to 5 on each of the five presentation requirements:<div class="autopermalink" data-description="Paragraph"><a href="#peer-assessment-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ol class="decimal" id="peer-assessment-3">
+<li id="peer-assessment-3-1">
+<div class="para" id="peer-assessment-3-1-1">definitions and statement;<div class="autopermalink" data-description="Paragraph"><a href="#peer-assessment-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1"><a href="#peer-assessment-3-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="peer-assessment-3-2">
+<div class="para" id="peer-assessment-3-2-1">modern translation;<div class="autopermalink" data-description="Paragraph"><a href="#peer-assessment-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2"><a href="#peer-assessment-3-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li id="peer-assessment-3-3">
+<div class="para" id="peer-assessment-3-3-1">informal reason or example;<div class="autopermalink" data-description="Paragraph"><a href="#peer-assessment-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3"><a href="#peer-assessment-3-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+<li id="peer-assessment-3-4">
+<div class="para" id="peer-assessment-3-4-1">explanation of the proof;<div class="autopermalink" data-description="Paragraph"><a href="#peer-assessment-3-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 4"><a href="#peer-assessment-3-4" title="Copy heading and permalink for Item 4" aria-label="Copy heading and permalink for Item 4">🔗</a></div>
+</li>
+<li id="peer-assessment-3-5">
+<div class="para" id="peer-assessment-3-5-1">connections and dependencies.<div class="autopermalink" data-description="Paragraph"><a href="#peer-assessment-3-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 5"><a href="#peer-assessment-3-5" title="Copy heading and permalink for Item 5" aria-label="Copy heading and permalink for Item 5">🔗</a></div>
+</li>
+</ol>
+<div class="para" id="peer-assessment-4">To better anchor your scores, consider these as meanings of your numbers:<div class="autopermalink" data-description="Paragraph"><a href="#peer-assessment-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="peer-assessment-5">
+<li id="peer-assessment-5-1">
+<div class="para" id="peer-assessment-5-1-1">5: Thorough, accurate, and especially helpful in understanding the original text.<div class="autopermalink" data-description="Paragraph"><a href="#peer-assessment-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#peer-assessment-5-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="peer-assessment-5-2">
+<div class="para" id="peer-assessment-5-2-1">4: Accurate and clear, with only minor omissions.<div class="autopermalink" data-description="Paragraph"><a href="#peer-assessment-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#peer-assessment-5-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="peer-assessment-5-3">
+<div class="para" id="peer-assessment-5-3-1">3: Generally correct but missing an important explanation or connection.<div class="autopermalink" data-description="Paragraph"><a href="#peer-assessment-5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#peer-assessment-5-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="peer-assessment-5-4">
+<div class="para" id="peer-assessment-5-4-1">2: Significant gaps or inaccuracies that impede understanding.<div class="autopermalink" data-description="Paragraph"><a href="#peer-assessment-5-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#peer-assessment-5-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="peer-assessment-5-5">
+<div class="para" id="peer-assessment-5-5-1">1: Does not adequately address the requirement.<div class="autopermalink" data-description="Paragraph"><a href="#peer-assessment-5-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#peer-assessment-5-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="para" id="peer-assessment-6">To assess the explanation of the proof, read the proof of the proposition yourself after the presentation. Your score should reflect how well the presentation prepared you to understand the text, not merely how polished the presentation appeared.<div class="autopermalink" data-description="Paragraph"><a href="#peer-assessment-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section: Peer Assessment"><a href="#peer-assessment" title="Copy heading and permalink for Section: Peer Assessment" aria-label="Copy heading and permalink for Section: Peer Assessment">🔗</a></div></section><div class="autopermalink" data-description="Worksheet: Euclid Mini-Project Worksheet"><a href="#euclid-mini-project" title="Copy heading and permalink for Worksheet: Euclid Mini-Project Worksheet" aria-label="Copy heading and permalink for Worksheet: Euclid Mini-Project Worksheet">🔗</a></div></section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="325HW2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
