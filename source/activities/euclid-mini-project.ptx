@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet xml:id="euclid-mini-project">
+      <title>Euclid Mini-Project Worksheet</title>
+
+      <introduction>
+        <title>Overview</title>
+        <p>This mini-project will be delivered as an oral presentation in class. Each student will present one of the propositions listed below and will be graded by classmates and the professor. Peer scores will contribute to the presentation grade, but the professor will review them for consistency and may adjust the resulting score when necessary.</p>
+        <p>The propositions come primarily from Book VII of Euclid's <em>Elements</em>. Many express facts that you may have encountered in modern form in a course such as discrete mathematics, number theory, or abstract algebra. Your task is not simply to reproduce the modern theorem. You must understand Euclid's statement and argument within his own system of definitions, terminology, and previously established propositions.</p>
+
+        <p>The primary translation of Euclid used in this course is David Joyce's online edition of the Elements: <url href="https://mathcs.clarku.edu/~djoyce/java/elements/toc.html">Euclid's Elements (David Joyce)</url>.</p>
+      </introduction>
+
+      <section xml:id="presentation-requirements">
+        <title>Presentation Requirements</title>
+        <p>Your presentation should address each of the following points. Specifics are given in each available proposition.</p>
+        <ol>
+          <li><p><b>Definitions and statement.</b> Identify and explain every important technical term in the proposition. State the relevant Book VII definitions in Euclid's language, then explain what they mean. Pay particular attention to terms whose Euclidean meaning differs from current usage.</p></li>
+          <li><p><b>Modern translation.</b> Restate the proposition in modern mathematical language and notation. Explain whether your modern version is exactly equivalent to Euclid's statement or whether it changes the statement in some way.</p></li>
+          <li><p><b>Informal reason or example.</b> Give an informal reason that the proposition should be true before presenting its formal proof. A carefully chosen numerical example may be useful, but it should illuminate the general argument rather than replace it.</p></li>
+          <li><p><b>Proof.</b> Present Euclid's proof without merely reading the text of the <em>Elements</em>. Explain the critical steps in an insightful way so that your audience will be able to read and understand the original proof with relative ease, if not reconstruct the argument for themselves. Clearly distinguish between Euclid's argument, your explanation of that argument, and any modern proof or justification you add.</p></li>
+          <li><p><b>Connections and dependencies.</b> Explain the important definitions and earlier propositions used in the proof. Also describe an important proposition that follows from your result, or connect the result to a theorem or method that you have encountered in a modern mathematics course. Address the specific notes listed with your assigned proposition.</p></li>
+        </ol>
+      </section>
+
+      <section xml:id="book-vii-definitions">
+        <title>Attention to Book VII Definitions</title>
+        <p>Euclid's arithmetic is not written in the language of sets, divisibility notation, or prime factorization. Definitions are therefore part of the mathematical work, not merely vocabulary to be recited. Depending on your proposition, you may need to study terms such as:</p>
+        <tabular>
+          <row><cell>unit</cell><cell>number</cell><cell>measures</cell><cell>multiple</cell></row>
+          <row><cell>part</cell><cell>parts</cell><cell>prime number</cell><cell>relatively prime numbers</cell></row>
+          <row><cell>composite number</cell><cell/><cell/><cell/></row>
+        </tabular>
+        <p>When discussing a definition, address the following questions when relevant:</p>
+        <ul>
+          <li><p>What objects fall under the definition?</p></li>
+          <li><p>What objects are excluded?</p></li>
+          <li><p>How is the definition used in the proposition or proof?</p></li>
+          <li><p>Is the definition equivalent to its usual modern counterpart?</p></li>
+          <li><p>What interpretive difficulty might a modern reader encounter?</p></li>
+        </ul>
+      </section>
+
+      <section xml:id="available-propositions">
+        <title>Available Propositions</title>
+        <p>The propositions will be presented in the order listed. If you want to present first, choose the first available proposition.</p>
+
+        <subsection xml:id="vii-1">
+          <title>1. Book VII, Proposition 1: Recognizing Relatively Prime Numbers</title>
+          <p><b>Euclid's statement:</b> When two unequal numbers are set out, and the less is continually subtracted in turn from the greater, if the number which is left never measures the one before it until a unit is left, then the original numbers are relatively prime.</p>
+          <p><b>Tasks:</b></p>
+          <ol>
+            <li><p>Explain the definitions of “measures,” “unit,” and “relatively prime” in modern notation and language.</p></li>
+            <li><p>Carefully restate the result as an “if-then” statement in terms of the Euclidean Algorithm.</p></li>
+            <li><p>Give an example or two to show how the proposition is useful for showing two numbers are relatively prime.</p></li>
+            <li><p>Present Euclid's proof.</p></li>
+            <li><p>Euclid writes only three subtraction stages. Explain how a modern mathematician would justify the argument when there are <m>n</m> stages.</p></li>
+          </ol>
+        </subsection>
+
+        <subsection xml:id="vii-2">
+          <title>2. Book VII, Proposition 2: Finding the Greatest Common Measure</title>
+          <p><b>Euclid's task:</b> Given two numbers not relatively prime, find their greatest common measure.</p>
+          <p><b>Modern connection:</b> Computing <m>\gcd(a,b)</m> with the Euclidean algorithm.</p>
+          <p><b>Tasks:</b></p>
+          <ol>
+            <li><p>Demonstrate the modern division-based Euclidean Algorithm with two nontrivial integers that are not relatively prime. Explain how each division step abbreviates one or more of Euclid's repeated-subtraction steps.</p></li>
+            <li>
+              <p>Present Euclid's proof. This proof comes in two parts:</p>
+              <ul>
+                <li><p>The last nonzero remainder measures the two given numbers.</p></li>
+                <li><p>The last nonzero remainder measures all other numbers that measure the two given numbers.</p></li>
+              </ul>
+            </li>
+            <li><p>What hidden fact about the natural numbers is required to justify that the subtraction process cannot continue forever?</p></li>
+          </ol>
+        </subsection>
+
+        <subsection xml:id="vii-30">
+          <title>3. Book VII, Proposition 30: Euclid's Lemma</title>
+          <p><b>Euclid's statement:</b> If two numbers by multiplying one another make some number, and any prime number measures the product, then it also measures one of the original numbers.</p>
+          <p><b>Modern connection:</b> If <m>p</m> is prime and <m>p\mid ab</m>, then <m>p\mid a</m> or <m>p\mid b</m>.</p>
+          <p><b>Tasks:</b></p>
+          <ol>
+            <li><p>Explain why the primality hypothesis matters and give a counterexample when it is removed.</p></li>
+            <li><p>Present Euclid's proof. You may use the propositions on which it depends without proof, but you must explain their meaning.</p></li>
+            <li>
+              <p>A modern proof of Euclid's Lemma depends on Bézout's Identity, which says that if <m>a</m> and <m>b</m> are relatively prime, then there are integers <m>x</m> and <m>y</m> such that</p>
+              <me>ax+by=1.</me>
+              <p>Use this fact to prove the following modern version of Proposition VII.20:</p>
+              <blockquote>
+                <p>If <m>\frac{a}{b}=\frac{c}{d}</m>, and <m>c</m> and <m>d</m> are relatively prime, then there is a positive integer <m>k</m> such that <m>a=kc</m> and <m>b=kd</m>.</p>
+              </blockquote>
+              <p><b>Note:</b> The hypothesis that <m>c</m> and <m>d</m> are relatively prime is guaranteed by VII.22. Is that acceptable to use?</p>
+            </li>
+          </ol>
+        </subsection>
+
+        <subsection xml:id="vii-31">
+          <title>4. Book VII, Proposition 31: A Composite Number Has a Prime Measure</title>
+          <p><b>Euclid's statement:</b> Any composite number is measured by some prime number.</p>
+          <p><b>Modern connection:</b> Every composite integer has a prime divisor.</p>
+          <p><b>Tasks:</b></p>
+          <ol>
+            <li><p>Explain Euclid's definitions of prime and composite number.</p></li>
+            <li><p>Present Euclid's proof. In doing so, carefully explain how the argument rules out an endless sequence of successively smaller measures.</p></li>
+            <li><p>Discuss how this proposition differs from simply assuming the existence of a prime factorization.</p></li>
+          </ol>
+        </subsection>
+
+        <subsection xml:id="vii-32">
+          <title>5. Book VII, Proposition 32: Prime or Measured by a Prime</title>
+          <p><b>Euclid's statement:</b> Any number is either prime or is measured by some prime number.</p>
+          <p><b>Modern connection:</b> Every integer greater than <m>1</m> is prime or has a prime divisor.</p>
+          <p><b>Tasks:</b></p>
+          <ol>
+            <li><p>Compare this statement with VII.31. Why does Euclid give both propositions?</p></li>
+            <li><p>Explain Euclid's proof. Explain how Euclid's definition of number determines the modern restriction <m>n&gt;1</m>.</p></li>
+            <li><p>Explain why this proposition does not yet prove either the existence or the uniqueness of a complete prime factorization. What additional argument would be needed to pass from “has a prime measure” to “is a product of primes”?</p></li>
+          </ol>
+        </subsection>
+      </section>
+
+      <section xml:id="peer-assessment">
+        <title>Peer Assessment</title>
+        <p>After each presentation, take careful notes and assign the presenting group a score from 1 to 5 on each of the five presentation requirements:</p>
+        <ol>
+          <li><p>definitions and statement;</p></li>
+          <li><p>modern translation;</p></li>
+          <li><p>informal reason or example;</p></li>
+          <li><p>explanation of the proof;</p></li>
+          <li><p>connections and dependencies.</p></li>
+        </ol>
+        <p>To better anchor your scores, consider these as meanings of your numbers:</p>
+        <ul>
+          <li><p><b>5:</b> Thorough, accurate, and especially helpful in understanding the original text.</p></li>
+          <li><p><b>4:</b> Accurate and clear, with only minor omissions.</p></li>
+          <li><p><b>3:</b> Generally correct but missing an important explanation or connection.</p></li>
+          <li><p><b>2:</b> Significant gaps or inaccuracies that impede understanding.</p></li>
+          <li><p><b>1:</b> Does not adequately address the requirement.</p></li>
+        </ul>
+        <p>To assess the explanation of the proof, read the proof of the proposition yourself after the presentation. Your score should reflect how well the presentation prepared you to understand the text, not merely how polished the presentation appeared.</p>
+      </section>
+    </worksheet>
+
