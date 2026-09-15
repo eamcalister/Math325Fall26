@@ -9,6 +9,7 @@
     <xi:include href="./activities/325HW1.ptx"/>
     <xi:include href="./activities/325HW2.ptx"/>
     <xi:include href="./activities/euclid-mini-project.ptx"/>
+    <xi:include href="./activities/325HW4.ptx"/>
 
     <!-- Add more xi:include files here to include them in the main course -->
   </article>

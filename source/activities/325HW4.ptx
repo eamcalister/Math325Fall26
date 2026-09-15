@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet margin="1in" bottom="1.25cm" xml:id="325HW4">
+            <title>Math 325 Homework 4</title>
+
+            <introduction>
+                <p>
+                    Due September ?, 2026 (submission on Canvas).
+                </p>
+                <p>
+                    In this assignment we wish to show that
+<md>
+I = \int_{0}^{1} x^2\,dx = \frac{1}{3}
+</md>
+in a rigorous way using the Method of Exhaustion. This is roughly the way we will see Archimedes and Euclid solve several problems, and would have been considered state-of-the-art in the early 1600's.
+                </p>
+                <p>
+                    <em>Note:</em> This is an ahistoric assignment that is meant to highlight the Method of Exhaustion in a familiar setting with modern notation. Also, you will probably want to hand write your solution instead of using Latex, since you'll want some figures. 
+                </p>
+                <p>
+                    <term>Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding.</term>
+                </p>
+            </introduction>
+
+            <exercise>
+                <introduction>
+                    <p>
+                        Let <m>R_n</m> and <m>L_n</m> denote the right- and left-hand Riemann sums for this integral obtained by subdividing <m>[0,1]</m> into <m>n</m> sub-intervals of length <m>\frac{1}{n}</m>.
+                    </p>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Explain why <m>L_n &lt; I &lt; R_n</m> graphically.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Show that 
+<md>
+L_n = \sum_{i=1}^{n} \frac{(i-1)^2}{n^3}\ \ \mbox{and} \ \ R_n = \sum_{i=1}^{n} \frac{(i)^2}{n^3}.
+</md>
+                        </p>
+                    </statement>
+                </task>
+
+                <task>
+                    <statement>
+                        <p>
+                            Show that <m>R_n - L_n = \frac{1}{n}</m> and explain why this means <m>R_n - I &lt; \frac{1}{n}</m> and <m>I-L_n &lt; \frac{1}{n}</m> for any <m>n</m>.
+                        </p>
+                    </statement>
+                </task>
+            </exercise>
+
+            <exercise>
+                <introduction>
+                    <p>
+                        Now we do our two part contradiction proof. An important fact we will need (and prove soon enough) is that
+<md>
+1^2 + 2^2 + \cdots + n^2 = \sum_{i=1}^{n} i^2 = \frac{2n^3+3n^2+n}{6}.
+</md>  
+                    </p>
+                </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Assume <m>I &lt;\frac{1}{3}</m> and let <m>\epsilon = \frac{1}{3} - I</m>.
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                Explain why, for some <m>n</m>, <m>R_n-I &lt; \epsilon</m>. Why does this imply <m>R_n &lt; \frac{1}{3}</m>?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Use the formula for the sum of squares given above and the last part (with a little algebra) to derive a contradiction.
+                            </p>
+                        </li>
+                    </ul>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                         Carry out a process similar to part (a) using the left-hand sum to derive a contradiction by assuming <m>I &gt;\frac{1}{3}</m>.
+                    </p>
+                </statement>
+            </task>
+            </exercise>
+
+        </worksheet>
