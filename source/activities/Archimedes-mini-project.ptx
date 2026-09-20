@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet xml:id="archimedes-mini-project">
+      <title>Archimedes Mini-Project</title>
+
+      <introduction>
+        <title>Overview</title>
+        <p>This mini-project will be delivered as an oral presentation in class. Note that one of the propositions being proven will be split between two students.</p>
+
+
+        <p>These propositions amount to proving the result that Archimedes' himself considered his crowning acheivement: that the volume of a sphere is <m>2/3</m> the volume of the smallest cylinder that will contain it. It is said that a sphere with a circumscribed cylinder is what he requested be etched on his gravestone.</p>
+
+        <p>Sources for this activity are on Canvas.</p>
+      </introduction>
+
+<page>
+      <paragraphs>
+        <title>Available Propositions</title>
+        <p>The propositions will be presented in the order listed. If you want to present first, choose the first available proposition.</p>
+      </paragraphs>
+
+        <paragraphs xml:id="x-1">
+          <title>1. Euclid's <em>Elements</em> Book X, Proposition 1</title>
+          <p><b>Euclid's statement:</b> Two unequal magnitudes being set out, if from the greater there is subtracted a magnitude greater than its half, and from that which is left a magnitude greater than its half, and if this process is repeated continually, then there will be left some magnitude less than the lesser magnitude set out. And the theorem can similarly be proven even if the parts subtracted are halves. </p>
+          <p>
+            You presentation should work through the proof. It should note where in the proof Euclid uses the so-called "Archimedean Property".
+          </p>
+        </paragraphs>
+
+        <paragraphs xml:id="Xii-10">
+          <title>2. Euclid's <em>Elements</em> Book XII, Proposition 10</title>
+         <p><b>Euclid's statement:</b> Any cone is a third part of the cylinder with the same base and equal height. </p>
+         <p>
+            This is a classical proof using the Method of Exhaustion. You should carefully explain previous results used in the proof. You should carefully do one of the contradictions and then explain roughly what needs to be changed so that your classmates could do the other direction on their own.
+         </p>
+        </paragraphs>
+</page>
+<page>
+        <paragraphs xml:id="Method-2">
+          <title>3. Archimedes' <em>Method of Mechanical Theorems</em>, Proposition 2</title>
+            <p>
+                In this project you will present Proposition 2 in <em>The Method of Mechanical Theorems</em> as outlined below. It will use the following figure:
+            </p>
+            <figure xml:id="Method-image">
+            <image width="75%" source="Methodprop2.png"/> 
+            </figure>
+            <p>
+                Throughout these tasks, you may find it useful to translatee into Cartesian coordinates, so that you can find equations for lines etc. This is an ahistoric choice.
+            </p>
+            <ol>
+                <li>
+                    <p>
+                        Show that <m>MS\cdot SQ = OS^2+SQ^2</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Show that <m>\frac{HA}{AS} = \frac{MS}{SQ}</m>. Hence, you may conclude
+<md>
+\frac{HA}{AS} = \frac{MS^2}{OS^2+SQ^2} = \frac{MN^2}{OP^2+QR^2}.
+</md>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Conclude that the circle in the cylinder, placed where it is, is in equilibrium about <m>A</m> with the circle in the sphere together with the circle in the cone, if both the latter circles are placed with their centers of gravity at <m>H</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Use the Law of the Lever to conclude that the cone and cylinder will balance the sphere (with appropriate placements).
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        From <em>The Elements</em>, Book XII, Proposition 10, and the fact that the cone <m>AEF</m> is eight times the cone <m>ABD</m>, conclude that the sphere is four times the cone <m>ABD</m>.
+                    </p>
+                </li>
+            </ol>
+        </paragraphs>
+    </page>
+<page>
+        <paragraphs xml:id="Sphere-Prop34A">
+          <title>4. <em>On the Sphere and the Cylinder, Book I</em>, Proposition 34, part A</title>
+          <p>
+            Your presentation should set up the contradictions used in the Method of Exhaustion for Proposition 34. Specifically:
+          </p>
+          <ol>
+            <li>
+                <p>
+                    State the proposition clearly.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Clearly state which previous propositions are used in the proof. You don't need to prove them, but your audience needs to understand their content.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Provide notation that will be used for the sphere, the circumscribed and inscribed solids, and the volume of the cone. The person presenting the rest of the proof will need these. 
+                </p>
+            </li>
+          </ol>
+          
+        </paragraphs>
+
+        <paragraphs xml:id="Sphere-Prop34B">
+          <title>5. <em>On the Sphere and the Cylinder, Book I</em>, Proposition 34, part B</title>
+          <p>
+            Your presentation will show the double contradiction part of this proof. Specifically:
+          </p>
+          <ol>
+            <li>
+                <p>
+                    Present the crucial inequalities used in the proof.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Derive the necessary contradictions.
+                </p>
+            </li>
+          </ol>
+          <p>
+            Throughout your presentation you need refer to the framework set up by the previous presentation. Finally, explain how this result leads to the famous result on Archimedes' tombstone.
+          </p>
+        </paragraphs>
+    </page>
+
+
+    </worksheet>
+
