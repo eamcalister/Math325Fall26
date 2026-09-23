@@ -6,10 +6,11 @@
     <xi:include href="./frontmatter.ptx" />
 
 
-    <!--xi:include href="./activities/325HW1.ptx"/>
+    <xi:include href="./activities/325HW1.ptx"/>
     <xi:include href="./activities/325HW2.ptx"/>
     <xi:include href="./activities/euclid-mini-project.ptx"/>
-    <xi:include href="./activities/325HW4.ptx"/-->
+    <xi:include href="./activities/325HW4.ptx"/>
+    <xi:include href="./activities/325HW5.ptx"/>
     <xi:include href="./activities/Archimedes-mini-project.ptx"/>
 
     <!-- Add more xi:include files here to include them in the main course -->
