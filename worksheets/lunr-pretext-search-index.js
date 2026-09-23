@@ -127,6 +127,42 @@ var ptx_lunr_docs = [
   "body": "  Now we do our two part contradiction proof. An important fact we will need (and prove soon enough) is that      Assume and let .    Explain why, for some , . Why does this imply ?    Use the formula for the sum of squares given above and the last part (with a little algebra) to derive a contradiction.        Carry out a process similar to part (a) using the left-hand sum to derive a contradiction by assuming .    "
 },
 {
+  "id": "325HW5",
+  "level": "1",
+  "url": "325HW5.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Math 325 Homework 5",
+  "body": " Math 325 Homework 5   Due September 25, 2026 (submission on Canvas).  For this homework, we want to work out some of the results on orthotomes that were necessary for the quadrature of the parabola using the more modern techniques of algebra and Calculus. So, consider the parabola and cut it with the line . We wish to prove Theorems 2 and 5 from on orthotomes for this particular segment of the parabola.   Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding.      Show Theorem 2 is true in this example using Calculus\/algebra, where , , and . Find\/label all the other points and show all your work.      Show Theorem 5 is true in the example using Calculus\/algebra. In this one will be a variable point.    "
+},
+{
+  "id": "325HW5-2-3",
+  "level": "2",
+  "url": "325HW5.html#325HW5-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding. "
+},
+{
+  "id": "325HW5-3",
+  "level": "2",
+  "url": "325HW5.html#325HW5-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Show Theorem 2 is true in this example using Calculus\/algebra, where , , and . Find\/label all the other points and show all your work.   "
+},
+{
+  "id": "325HW5-4",
+  "level": "2",
+  "url": "325HW5.html#325HW5-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Show Theorem 5 is true in the example using Calculus\/algebra. In this one will be a variable point.   "
+},
+{
   "id": "archimedes-mini-project",
   "level": "1",
   "url": "archimedes-mini-project.html",
