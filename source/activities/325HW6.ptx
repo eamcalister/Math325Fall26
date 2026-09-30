@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet margin="1in" bottom="1.25cm" xml:id="325HW6">
+            <title>Math 325 Homework 6</title>
+
+            <introduction>
+                <p>
+                    Due October 9, 2026 (submission on Canvas).
+                </p>
+<p>
+In this assignment we jump forward to the 1600's. We will see that state-of-the-art mathematics in Europe was still functionally following the heritage of Archimedes, just with some new language and symbols.
+</p>
+                <p>
+                    <term>Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding.</term>
+                </p>
+            </introduction>
+
+            <exercise>
+
+                    <statement>
+                        <p>
+                            (6 points) Read items <m>6</m> and <m>7</m> in the Roberval to Fermat letters posted on Canvas (starting on the 8th page, i.e. Source page 81).
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    What problem is Roberval describing his solution to?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    What is is his method of solution? <em>Hint:</em> It's a problem and solution that we have worked through explicitly.
+                                </p>
+                            </li>
+                        </ul>
+                    </statement>
+            
+            </exercise>
+
+            <exercise>
+                <statement>
+                    <p>
+                        (6 points) Read the part of Fermat's response letter beginning at the bottom of source page 84, starting with the statement, "The last side multiplied by the next greater side makes twice the triangle." Explain how this proposition of Fermat can be used to find the following summation formulas: 
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                <md>
+                                    \sum_{i = 1}^n i = \frac{n(n+1)}{2}
+                                </md>
+                            </p>
+                            <p>
+                                <em>Hint:</em> Interpret the left-hand side as "the triangle" by drawing a staircase pattern. 
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <md>\sum_{i=1}^{n} i^2 = \frac{2n^3+3n^2+n}{6}</md>
+                            </p>
+                            <p>
+                                <em>Hint:</em> This one is harder because to need to know that "the pyramid" is a stack of "triangles" from the previous formula.
+                            </p>
+                        </li>
+                    </ul>
+                </statement>
+            </exercise>
+
+        </worksheet>
