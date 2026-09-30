@@ -179,6 +179,42 @@ var ptx_lunr_docs = [
   "number": "1",
   "title": "",
   "body": "  "
+},
+{
+  "id": "325HW6",
+  "level": "1",
+  "url": "325HW6.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Math 325 Homework 6",
+  "body": " Math 325 Homework 6   Due October 9, 2026 (submission on Canvas).  In this assignment we jump forward to the 1600's. We will see that state-of-the-art mathematics in Europe was still functionally following the heritage of Archimedes, just with some new language and symbols.   Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding.      (6 points) Read items and in the Roberval to Fermat letters posted on Canvas (starting on the 8th page, i.e. Source page 81).    What problem is Roberval describing his solution to?    What is is his method of solution? Hint: It's a problem and solution that we have worked through explicitly.        (6 points) Read the part of Fermat's response letter beginning at the bottom of source page 84, starting with the statement, \"The last side multiplied by the next greater side makes twice the triangle.\" Explain how this proposition of Fermat can be used to find the following summation formulas:        Hint: Interpret the left-hand side as \"the triangle\" by drawing a staircase pattern.        Hint: This one is harder because to need to know that \"the pyramid\" is a stack of \"triangles\" from the previous formula.      "
+},
+{
+  "id": "325HW6-2-3",
+  "level": "2",
+  "url": "325HW6.html#325HW6-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding. "
+},
+{
+  "id": "325HW6-3",
+  "level": "2",
+  "url": "325HW6.html#325HW6-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  (6 points) Read items and in the Roberval to Fermat letters posted on Canvas (starting on the 8th page, i.e. Source page 81).    What problem is Roberval describing his solution to?    What is is his method of solution? Hint: It's a problem and solution that we have worked through explicitly.     "
+},
+{
+  "id": "325HW6-4",
+  "level": "2",
+  "url": "325HW6.html#325HW6-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  (6 points) Read the part of Fermat's response letter beginning at the bottom of source page 84, starting with the statement, \"The last side multiplied by the next greater side makes twice the triangle.\" Explain how this proposition of Fermat can be used to find the following summation formulas:        Hint: Interpret the left-hand side as \"the triangle\" by drawing a staircase pattern.        Hint: This one is harder because to need to know that \"the pyramid\" is a stack of \"triangles\" from the previous formula.     "
 }
 ]
 
