@@ -13,6 +13,7 @@
     <xi:include href="./activities/325HW5.ptx"/>
     <xi:include href="./activities/Archimedes-mini-project.ptx"/>
     <xi:include href="./activities/325HW6.ptx"/>
+    <xi:include href="./activities/GreekReflection.ptx"/>
 
     <!-- Add more xi:include files here to include them in the main course -->
   </article>

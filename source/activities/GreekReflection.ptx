@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet margin="1in" bottom="1.25cm" xml:id="GreekReflection">
+            <title>Math 325 Greek Reflection</title>
+
+            <introduction>
+                <p>
+                    Due October 14, 2026 (submission on Canvas).
+                </p>
+    <p>
+    In this assignment we want to reflect a little on the forces that may have helped what we regard as "the Greek mathematical tradition" arise. 
+    </p>
+
+<p>
+    <term>Instructions:</term> After reading <em>Mathematical Traditions in Ancient Rome and Greece</em>, write approximately one to two pages responding to the following prompts (total, not per prompt, even though that would be possible).
+</p>
+                <p>
+                    <term>Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding.</term>
+                </p>
+             </introduction>
+
+
+<exercise>
+    <statement>
+        <p>
+            What kinds of social conditions would be necessary for a person to spend years studying geometry and proof? What does this suggest about the lives of mathematicians such as Euclid and Archimedes, and does recognizing the role of privilege, education, and leisure change how you view the achievements of Euclid and Archimedes?
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            Cuomo emphasizes that practical and theoretical mathematics may have been more interconnected than historians once believed. How does this compare with what we have seen in Archimedes, whose work combines rigorous proof with arguments based on physical intuition? 
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            Cuomo discusses "code switching," where people move between different ways of speaking, thinking, or presenting mathematics depending on the audience and situation. Reflect on your own experiences with mathematics. Have you ever explained, or have seen an explanation of, the same mathematical idea presented differently in different settings (for example, to a friend, a younger student, a teacher, or in a proof)? What changed and what stayed the same? How does your experience help you understand Cuomo's claim that practical and theoretical mathematics may not be completely separate traditions, but different ways of engaging with mathematics?
+        </p>
+    </statement>
+</exercise>
+
+
+</worksheet>
+
+
