@@ -215,6 +215,60 @@ var ptx_lunr_docs = [
   "number": "2",
   "title": "",
   "body": "  (6 points) Read the part of Fermat's response letter beginning at the bottom of source page 84, starting with the statement, \"The last side multiplied by the next greater side makes twice the triangle.\" Explain how this proposition of Fermat can be used to find the following summation formulas:        Hint: Interpret the left-hand side as \"the triangle\" by drawing a staircase pattern.        Hint: This one is harder because to need to know that \"the pyramid\" is a stack of \"triangles\" from the previous formula.     "
+},
+{
+  "id": "GreekReflection",
+  "level": "1",
+  "url": "GreekReflection.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Math 325 Greek Reflection",
+  "body": " Math 325 Greek Reflection   Due October 14, 2026 (submission on Canvas).  In this assignment we want to reflect a little on the forces that may have helped what we regard as \"the Greek mathematical tradition\" arise.   Instructions: After reading Mathematical Traditions in Ancient Rome and Greece , write approximately one to two pages responding to the following prompts (total, not per prompt, even though that would be possible).   Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding.      What kinds of social conditions would be necessary for a person to spend years studying geometry and proof? What does this suggest about the lives of mathematicians such as Euclid and Archimedes, and does recognizing the role of privilege, education, and leisure change how you view the achievements of Euclid and Archimedes?      Cuomo emphasizes that practical and theoretical mathematics may have been more interconnected than historians once believed. How does this compare with what we have seen in Archimedes, whose work combines rigorous proof with arguments based on physical intuition?      Cuomo discusses \"code switching,\" where people move between different ways of speaking, thinking, or presenting mathematics depending on the audience and situation. Reflect on your own experiences with mathematics. Have you ever explained, or have seen an explanation of, the same mathematical idea presented differently in different settings (for example, to a friend, a younger student, a teacher, or in a proof)? What changed and what stayed the same? How does your experience help you understand Cuomo's claim that practical and theoretical mathematics may not be completely separate traditions, but different ways of engaging with mathematics?    "
+},
+{
+  "id": "GreekReflection-2-3",
+  "level": "2",
+  "url": "GreekReflection.html#GreekReflection-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "GreekReflection-2-4",
+  "level": "2",
+  "url": "GreekReflection.html#GreekReflection-2-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding. "
+},
+{
+  "id": "GreekReflection-3",
+  "level": "2",
+  "url": "GreekReflection.html#GreekReflection-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  What kinds of social conditions would be necessary for a person to spend years studying geometry and proof? What does this suggest about the lives of mathematicians such as Euclid and Archimedes, and does recognizing the role of privilege, education, and leisure change how you view the achievements of Euclid and Archimedes?   "
+},
+{
+  "id": "GreekReflection-4",
+  "level": "2",
+  "url": "GreekReflection.html#GreekReflection-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Cuomo emphasizes that practical and theoretical mathematics may have been more interconnected than historians once believed. How does this compare with what we have seen in Archimedes, whose work combines rigorous proof with arguments based on physical intuition?   "
+},
+{
+  "id": "GreekReflection-5",
+  "level": "2",
+  "url": "GreekReflection.html#GreekReflection-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Cuomo discusses \"code switching,\" where people move between different ways of speaking, thinking, or presenting mathematics depending on the audience and situation. Reflect on your own experiences with mathematics. Have you ever explained, or have seen an explanation of, the same mathematical idea presented differently in different settings (for example, to a friend, a younger student, a teacher, or in a proof)? What changed and what stayed the same? How does your experience help you understand Cuomo's claim that practical and theoretical mathematics may not be completely separate traditions, but different ways of engaging with mathematics?   "
 }
 ]
 
