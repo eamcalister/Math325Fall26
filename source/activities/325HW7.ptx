@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet margin="1in" bottom="1.25cm" xml:id="325HW7">
+            <title>Math 325 Homework 7</title>
+
+            <introduction>
+                <p>
+                    Due October 19, 2026 (submission on Canvas).
+                </p>
+<p>
+In this assignment you will work more with Al-Haythan's identity to justify the results of Fermat/Roberval.
+</p>
+                <p>
+                    <term>Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding.</term>
+                </p>
+            </introduction>
+
+            <exercise>
+
+                    <statement>
+                        <p>
+                            (6 points) Use Al-Haythan's identity to find a closed formula for <m>\sum_{i = 1}^{n} i^5</m>.
+                        </p>
+                    </statement>
+            
+            </exercise>
+
+            <exercise>
+                <statement>
+                    <p>
+                        (6 points) Use Al-Haythan's identity to justify Roberval's estimates.
+                    </p>
+                </statement>
+            </exercise>
+            <exercise>
+                <statement>
+                    <p>
+                        Explain how you can integrate powers using exhaustion and these (fully justified) estimates.
+                    </p>
+                </statement>
+            </exercise>
+
+        </worksheet>
