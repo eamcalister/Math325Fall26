@@ -6,7 +6,7 @@
 
             <introduction>
                 <p>
-                    Due October 9, 2026 (submission on Canvas).
+                    Due October 14, 2026 (submission on Canvas).
                 </p>
 <p>
 In this assignment we jump forward to the 1600's. We will see that state-of-the-art mathematics in Europe was still functionally following the heritage of Archimedes, just with some new language and symbols.
@@ -63,6 +63,13 @@ In this assignment we jump forward to the 1600's. We will see that state-of-the-
                             </p>
                         </li>
                     </ul>
+                </statement>
+            </exercise>
+            <exercise>
+                <statement>
+                    <p>
+                        Now use the same ideas as above to find a closed formula the sum of the first <m>n</m> cubes.
+                    </p>
                 </statement>
             </exercise>
 
