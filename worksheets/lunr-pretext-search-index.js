@@ -278,6 +278,51 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": "  Cuomo discusses \"code switching,\" where people move between different ways of speaking, thinking, or presenting mathematics depending on the audience and situation. Reflect on your own experiences with mathematics. Have you ever explained, or have seen an explanation of, the same mathematical idea presented differently in different settings (for example, to a friend, a younger student, a teacher, or in a proof)? What changed and what stayed the same? How does your experience help you understand Cuomo's claim that practical and theoretical mathematics may not be completely separate traditions, but different ways of engaging with mathematics?   "
+},
+{
+  "id": "325HW7",
+  "level": "1",
+  "url": "325HW7.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Math 325 Homework 7",
+  "body": " Math 325 Homework 7   Due October 21, 2026 (submission on Canvas).  In this assignment you will work more with Al-Haythan's identity to justify the results of Fermat\/Roberval.   Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding.      (6 points) Prove Al-Haythan's identity by induction. Please do a careful proof by induction. Use a variable other than , , , or in your induction hypothesis and induction step.       (6 points) Finih the derivation from class using Al-Haythan's identity that       (6 points) Do a proof using the Method of Exhaustion and the sum formula above that Recall the steps:    Write down the left- and right-hand sums, show their difference is some multiple of . Then argue this implies the difference between either sum and the integral is less than that.    Suppose the integral is less than the target value and let be the difference. Argue that this means the right-hand sum gets larger than the target value then show that's a contradiction using the sum formula. Then do that again with greater and left.    This should follow the proof we did for , just be a little more annoying.    "
+},
+{
+  "id": "325HW7-2-3",
+  "level": "2",
+  "url": "325HW7.html#325HW7-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding. "
+},
+{
+  "id": "325HW7-3",
+  "level": "2",
+  "url": "325HW7.html#325HW7-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  (6 points) Prove Al-Haythan's identity by induction. Please do a careful proof by induction. Use a variable other than , , , or in your induction hypothesis and induction step.    "
+},
+{
+  "id": "325HW7-4",
+  "level": "2",
+  "url": "325HW7.html#325HW7-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  (6 points) Finih the derivation from class using Al-Haythan's identity that    "
+},
+{
+  "id": "325HW7-5",
+  "level": "2",
+  "url": "325HW7.html#325HW7-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  (6 points) Do a proof using the Method of Exhaustion and the sum formula above that Recall the steps:    Write down the left- and right-hand sums, show their difference is some multiple of . Then argue this implies the difference between either sum and the integral is less than that.    Suppose the integral is less than the target value and let be the difference. Argue that this means the right-hand sum gets larger than the target value then show that's a contradiction using the sum formula. Then do that again with greater and left.    This should follow the proof we did for , just be a little more annoying.   "
 }
 ]
 
