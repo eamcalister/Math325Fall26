@@ -20,7 +20,11 @@ In this assignment you will work more with Al-Haythan's identity to justify the 
 
                     <statement>
                         <p>
-                            (6 points) Use Al-Haythan's identity to find a closed formula for <m>\sum_{i = 1}^{n} i^5</m>.
+                            (6 points) Prove Al-Haythan's identity
+                            <md>
+                                (n+1)\sum_{i = 1}^{n} i^k = \sum_{i=1}^{n}i^{k+1} +\sum_{p=1}^{n}\sum_{i = 1}^{p} i^k
+                            </md>
+                            by induction. <em>Please do a careful proof by induction. Use a variable other than <m>n</m>, <m>k</m>, <m>i</m>, or <m>p</m> in your induction hypothesis and induction step.</em>
                         </p>
                     </statement>
             
@@ -29,15 +33,36 @@ In this assignment you will work more with Al-Haythan's identity to justify the 
             <exercise>
                 <statement>
                     <p>
-                        (6 points) Use Al-Haythan's identity to justify Roberval's estimates.
+                        (6 points) Finih the derivation from class using Al-Haythan's identity that
+                        <md>
+                            \sum_{i = 1}^{n} i^4 = \frac{n^5}{5} + \frac{n^4}{2} + \frac{n^3}{3} - \frac{n}{30}.
+                        </md>
+                        
                     </p>
                 </statement>
             </exercise>
             <exercise>
                 <statement>
                     <p>
-                        Explain how you can integrate powers using exhaustion and these (fully justified) estimates.
-                    </p>
+                        (6 points) Do a proof using the Method of Exhaustion and the sum formula above that
+                        <md>
+                            \int_{0}^{2} x^4 dx = \frac{2^5}{5}.
+                        </md>
+                        Recall the steps:
+                    </p>             
+                    <ul>
+                        <li>
+                            <p>
+                                Write down the left- and right-hand sums, show their difference is some multiple of <m>\frac{1}{n}</m>. Then argue this implies the difference between either sum and the integral is less than that.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Suppose the integral is less than the target value and let <m>\epsilon</m> be the difference. Argue that this means the right-hand sum gets larger than the target value then show that's a contradiction using the sum formula. Then do that again with greater and left. 
+                            </p>
+                        </li>
+                    </ul>
+                    <em> This should follow the proof we did for <m>x^2</m>, just be a little more annoying.</em>
                 </statement>
             </exercise>
 
