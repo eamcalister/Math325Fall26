@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet margin="1in" bottom="1.25cm" xml:id="325HW8">
+            <title>Math 325 Homework 8</title>
+
+            <introduction>
+                <p>
+                    Due October 23, 2026 (submission on Canvas).
+                </p>
+<p>
+In this assignment you explore the Calculus of the Madhava series.
+</p>
+                <p>
+                    <term>Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding.</term>
+                </p>
+            </introduction>
+
+            <exercise>
+
+                    <statement>
+                        <p>
+                                        (6 points) In the Mathematics Magazine on Calculus in Egypt and India, the
+                                        approximation
+                                        <md>
+                                        \sin(\theta + d\theta) - \sin(\theta-d\theta) \approx 2\cos(\theta)d\theta
+                                        </md>
+                                        is given as a first step to building a power series for <m>\sin(\theta)</m>.
+                                        Use a graph to explain (in a way a Calculus student could understand) why, after dividing by <m>d\theta</m>, this is a statement about the slope of a secant line to the graph of <m>y=\sin(\theta)</m>. Explain why this can show the derivative of sine is cosine when you take the limit as <m>d\theta\to 0</m>.
+                        </p>
+                    </statement>
+            
+            </exercise>
+
+        </worksheet>

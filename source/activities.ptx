@@ -15,6 +15,7 @@
     <xi:include href="./activities/325HW6.ptx"/>
     <xi:include href="./activities/GreekReflection.ptx"/>
     <xi:include href="./activities/325HW7.ptx"/>
+    <xi:include href="./activities/325HW8.ptx"/>
 
     <!-- Add more xi:include files here to include them in the main course -->
   </article>
