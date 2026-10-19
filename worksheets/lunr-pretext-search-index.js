@@ -323,6 +323,33 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": "  (6 points) Do a proof using the Method of Exhaustion and the sum formula above that Recall the steps:    Write down the left- and right-hand sums, show their difference is some multiple of . Then argue this implies the difference between either sum and the integral is less than that.    Suppose the integral is less than the target value and let be the difference. Argue that this means the right-hand sum gets larger than the target value then show that's a contradiction using the sum formula. Then do that again with greater and left.    This should follow the proof we did for , just be a little more annoying.   "
+},
+{
+  "id": "325HW8",
+  "level": "1",
+  "url": "325HW8.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Math 325 Homework 8",
+  "body": " Math 325 Homework 8   Due October 23, 2026 (submission on Canvas).  In this assignment you explore the Calculus of the Madhava series.   Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding.      (6 points) In the Mathematics Magazine on Calculus in Egypt and India, the approximation is given as a first step to building a power series for . Use a graph to explain (in a way a Calculus student could understand) why, after dividing by , this is a statement about the slope of a secant line to the graph of . Explain why this can show the derivative of sine is cosine when you take the limit as .    "
+},
+{
+  "id": "325HW8-2-3",
+  "level": "2",
+  "url": "325HW8.html#325HW8-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding. "
+},
+{
+  "id": "325HW8-3",
+  "level": "2",
+  "url": "325HW8.html#325HW8-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  (6 points) In the Mathematics Magazine on Calculus in Egypt and India, the approximation is given as a first step to building a power series for . Use a graph to explain (in a way a Calculus student could understand) why, after dividing by , this is a statement about the slope of a secant line to the graph of . Explain why this can show the derivative of sine is cosine when you take the limit as .   "
 }
 ]
 
