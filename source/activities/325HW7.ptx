@@ -33,7 +33,7 @@ In this assignment you will work more with Al-Haythan's identity to justify the 
             <exercise>
                 <statement>
                     <p>
-                        (6 points) Finih the derivation from class using Al-Haythan's identity that
+                        (6 points) Finish the derivation from class using Al-Haythan's identity that
                         <md>
                             \sum_{i = 1}^{n} i^4 = \frac{n^5}{5} + \frac{n^4}{2} + \frac{n^3}{3} - \frac{n}{30}.
                         </md>
