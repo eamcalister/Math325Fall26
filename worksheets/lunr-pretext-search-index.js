@@ -350,6 +350,51 @@ var ptx_lunr_docs = [
   "number": "1",
   "title": "",
   "body": "  (6 points) In the Mathematics Magazine on Calculus in Egypt and India, the approximation is given as a first step to building a power series for . Use a graph to explain (in a way a Calculus student could understand) why, after dividing by , this is a statement about the slope of a secant line to the graph of . Explain why this can show the derivative of sine is cosine when you take the limit as .   "
+},
+{
+  "id": "FermatTangent",
+  "level": "1",
+  "url": "FermatTangent.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Math 325 Fermat Tangent Activity",
+  "body": " Math 325 Fermat Tangent Activity   Due date on Canvas.  In this assignment we will explore Fermat's method of finding the slope of a tangent line (or a quantity from which we can infer the slope). We'll do this in three steps:   First, we'll do a classical exhaustion proof that the slope of the tangent line to at the point is .    Next, we'll modify our perspective to include a local perturbation and solve for the -intercept of the tangent line.    Finally, you will read Fermat's derivation and try to map it onto the second proof.     Throughout this worksheet, we are considering the parabola and letting be a generic positive value.   Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding.      Let be the slope of the tangent line to the parabola at . We will show that using the Method of Exhaustion. We will assume that the tangent line lies beneath the parabola (this would have been known historically by the theory of conic sections).     (2 points) Let . Use concavity and slopes (draw a figure) to show that Thus, .      (2 points) Let . Use concavity and slopes to show that Thus, .      (4 points) Now use the above inequalities to derive two contradictions which together show that .       Now we want to think about perturbing away from by some amount ( can be positive or negative). Our goal is to find the -intercept, , of the tangent line to the parabola at .     (2 points) Show that if , then the slope is . This way we know what we want to get.      (6 points) Considering the point as a point on the parabola to the left or right of , show that Show the additional algebraic steps to show that if we let , then for all .      (4 points) Now use a positive value of to produce a contradiction assuming and a negative value of to produce a contradiction when . Now explain how yields the desired result.       (6 points) Now read Fermat's version in (source). He uses some confusing notation and makes one major step that is hard to explain. Your task is to compare the derivations\/proofs you did above to his. What is common and what is different (there are significant similarities)? Why did he create the inequality he created?  You should start by trying to map his notation to the objects in the second proof you did above. Then try to explain his process.    "
+},
+{
+  "id": "FermatTangent-2-4",
+  "level": "2",
+  "url": "FermatTangent.html#FermatTangent-2-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding. "
+},
+{
+  "id": "FermatTangent-3",
+  "level": "2",
+  "url": "FermatTangent.html#FermatTangent-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Let be the slope of the tangent line to the parabola at . We will show that using the Method of Exhaustion. We will assume that the tangent line lies beneath the parabola (this would have been known historically by the theory of conic sections).     (2 points) Let . Use concavity and slopes (draw a figure) to show that Thus, .      (2 points) Let . Use concavity and slopes to show that Thus, .      (4 points) Now use the above inequalities to derive two contradictions which together show that .    "
+},
+{
+  "id": "FermatTangent-4",
+  "level": "2",
+  "url": "FermatTangent.html#FermatTangent-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Now we want to think about perturbing away from by some amount ( can be positive or negative). Our goal is to find the -intercept, , of the tangent line to the parabola at .     (2 points) Show that if , then the slope is . This way we know what we want to get.      (6 points) Considering the point as a point on the parabola to the left or right of , show that Show the additional algebraic steps to show that if we let , then for all .      (4 points) Now use a positive value of to produce a contradiction assuming and a negative value of to produce a contradiction when . Now explain how yields the desired result.    "
+},
+{
+  "id": "FermatTangent-5",
+  "level": "2",
+  "url": "FermatTangent.html#FermatTangent-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  (6 points) Now read Fermat's version in (source). He uses some confusing notation and makes one major step that is hard to explain. Your task is to compare the derivations\/proofs you did above to his. What is common and what is different (there are significant similarities)? Why did he create the inequality he created?  You should start by trying to map his notation to the objects in the second proof you did above. Then try to explain his process.   "
 }
 ]
 
