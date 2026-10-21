@@ -45,7 +45,7 @@ In this assignment we will explore Fermat's method of finding the slope of a tan
             <task>
                 <statement>
                     <p>
-                        Let <m>0 &lt; a &lt; x</m>. Use concavity and slopes (draw a figure) to show that
+                        (2 points) Let <m>0 &lt; a &lt; x</m>. Use concavity and slopes (draw a figure) to show that
                         <md>
                             \frac{x^2 - a^2}{x-a} \lt m.
                         </md>
@@ -56,7 +56,7 @@ In this assignment we will explore Fermat's method of finding the slope of a tan
             <task>
                 <statement>
                     <p>
-                        Let <m>c &gt; x</m>. Use concavity and slopes to show that
+                        (2 points) Let <m>c &gt; x</m>. Use concavity and slopes to show that
                         <md>
                             \frac{c^2 - x^2}{c-x} &gt; m.
                         </md>
@@ -67,7 +67,7 @@ In this assignment we will explore Fermat's method of finding the slope of a tan
             <task>
                 <statement>
                     <p>
-                        Now use the above inequalities to derive two contradictions which together show that <m>m = 2x</m>. 
+                        (4 points) Now use the above inequalities to derive two contradictions which together show that <m>m = 2x</m>. 
                     </p>
                 </statement>
             </task>
@@ -82,20 +82,24 @@ In this assignment we will explore Fermat's method of finding the slope of a tan
             <task>
                 <statement>
                     <p>
-                        Show that if <m>b = -x^2</m>, then the slope is <m>m = 2x</m>. This way we know what we want to get.
+                        (2 points) Show that if <m>b = -x^2</m>, then the slope is <m>m = 2x</m>. This way we know what we want to get.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                        Considering the point <m>(x-E,(x-E)^2)</m> as a point on the parabola to the left or right of <m>(x,x^2)</m>, show that
+                        (6 points) Considering the point <m>(x-E,(x-E)^2)</m> as a point on the parabola to the left or right of <m>(x,x^2)</m>, show that
                         <md>
-                            \frac{x^2 - b}{x} &gt; \frac{x^2 - (x-E)^2}{E}.
+                            \frac{x^2 - b}{x} &gt; \frac{x^2 - (x-E)^2}{E}\ \ (E&gt; 0)
+                        </md>
+                        or
+                        <md>
+                            \frac{x^2 - b}{x} &lt; \frac{x^2 - (x-E)^2}{E}\ \ (E&lt; 0)
                         </md>
                         Show the additional algebraic steps to show that if we let <m>K = -x^2 - b</m>, then 
                         <md>
-                            K - Ex \gt 0
+                            K + Ex \gt 0
                         </md>
                         for all <m>E\neq 0</m>.
                     </p>
@@ -104,7 +108,7 @@ In this assignment we will explore Fermat's method of finding the slope of a tan
             <task>
                 <statement>
                     <p>
-                        Now use a positive value of <m>E</m> to produce a contradiction assuming <m>K &lt; 0</m> and a negative value of <m>E</m> to produce a contradiction when <m>K &gt; 0</m>. Now explain how <m>K = 0</m> yields the desired result.
+                        (4 points) Now use a positive value of <m>E</m> to produce a contradiction assuming <m>K &lt; 0</m> and a negative value of <m>E</m> to produce a contradiction when <m>K &gt; 0</m>. Now explain how <m>K = 0</m> yields the desired result.
                     </p>
                 </statement>
             </task>
@@ -113,7 +117,7 @@ In this assignment we will explore Fermat's method of finding the slope of a tan
         <exercise>
             <statement>
                 <p>
-                    Now read Fermat's version in (source). He uses some confusing notation and makes one major step that is hard to explain. Your task is to compare the derivations/proofs you did above to his. What is common and what is different (there are significant similarities)? Why did he create the inequality he created? 
+                    (6 points) Now read Fermat's version in <em>Mathematics Emerging</em>, section 3.1.1. He uses some confusing notation and makes one major step that is hard to explain. Your task is to compare the derivations/proofs you did above to his. What is common and what is different (there are significant similarities)? Why did he create the inequality he created? 
                 </p>
                 <p>
                     You should start by trying to map his notation to the objects in the second proof you did above. Then try to explain his process.
