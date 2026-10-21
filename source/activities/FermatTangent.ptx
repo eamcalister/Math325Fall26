@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet margin="1in" bottom="1.25cm" xml:id="FermatTangent">
+            <title>Math 325 Fermat Tangent Activity</title>
+
+            <introduction>
+                <p>
+                    Due date on Canvas.
+                </p>
+<p>
+In this assignment we will explore Fermat's method of finding the slope of a tangent line (or a quantity from which we can infer the slope). We'll do this in three steps:
+<ol>
+    <li>
+        <p>
+            First, we'll do a classical exhaustion proof that the slope of the tangent line to <m>y = x^2</m> at the point <m>(x,x^2)</m> is <m>2x</m>.
+        </p>
+    </li>
+    <li>
+        <p>
+            Next, we'll modify our perspective to include a local perturbation and solve for the <m>y</m>-intercept of the tangent line.
+        </p>
+    </li>
+    <li>
+        <p>
+            Finally, you will read Fermat's derivation and try to map it onto the second proof.
+        </p>
+    </li>
+</ol>
+</p>
+<p>
+    Throughout this worksheet, we are considering the parabola <m>y = x^2</m> and letting <m>x</m> be a generic positive value. 
+</p>
+                <p>
+                    <term>Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding.</term>
+                </p>
+            </introduction>
+        
+        <exercise>
+            <introduction>
+                <p>
+                    Let <m>m</m> be the slope of the tangent line to the parabola at <m>(x,x^2)</m>. We will show that <m>m = 2x</m> using the Method of Exhaustion. We will assume that the tangent line lies beneath the parabola (this would have been known historically by the theory of conic sections).
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Let <m>0 &lt; a &lt; x</m>. Use concavity and slopes (draw a figure) to show that
+                        <md>
+                            \frac{x^2 - a^2}{x-a} \lt m.
+                        </md>
+                        Thus, <m>x+a \lt m</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Let <m>c &gt; x</m>. Use concavity and slopes to show that
+                        <md>
+                            \frac{c^2 - x^2}{c-x} &gt; m.
+                        </md>
+                        Thus, <m>c+x &gt; m</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Now use the above inequalities to derive two contradictions which together show that <m>m = 2x</m>. 
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+
+        <exercise>
+            <introduction>
+                <p>
+                    Now we want to think about perturbing away from <m>x</m> by some amount <m>E</m> (<m>E</m> can be positive or negative). Our goal is to find the <m>y</m>-intercept, <m>b</m>, of the tangent line to the parabola at <m>(x,x^2)</m>. 
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Show that if <m>b = -x^2</m>, then the slope is <m>m = 2x</m>. This way we know what we want to get.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Considering the point <m>(x-E,(x-E)^2)</m> as a point on the parabola to the left or right of <m>(x,x^2)</m>, show that
+                        <md>
+                            \frac{x^2 - b}{x} &gt; \frac{x^2 - (x-E)^2}{E}.
+                        </md>
+                        Show the additional algebraic steps to show that if we let <m>K = -x^2 - b</m>, then 
+                        <md>
+                            K - Ex \gt 0
+                        </md>
+                        for all <m>E\neq 0</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Now use a positive value of <m>E</m> to produce a contradiction assuming <m>K &lt; 0</m> and a negative value of <m>E</m> to produce a contradiction when <m>K &gt; 0</m>. Now explain how <m>K = 0</m> yields the desired result.
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Now read Fermat's version in (source). He uses some confusing notation and makes one major step that is hard to explain. Your task is to compare the derivations/proofs you did above to his. What is common and what is different (there are significant similarities)? Why did he create the inequality he created? 
+                </p>
+                <p>
+                    You should start by trying to map his notation to the objects in the second proof you did above. Then try to explain his process.
+                </p>
+            </statement>
+        </exercise>
+
+
+
+
+        </worksheet>
