@@ -9,7 +9,7 @@
                     Due October 21, 2026 (submission on Canvas).
                 </p>
 <p>
-In this assignment you will work more with Al-Haythan's identity to justify the results of Fermat/Roberval.
+In this assignment you will work more with Al-Haytham's identity to justify the results of Fermat/Roberval.
 </p>
                 <p>
                     <term>Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding.</term>
@@ -20,7 +20,7 @@ In this assignment you will work more with Al-Haythan's identity to justify the 
 
                     <statement>
                         <p>
-                            (6 points) Prove Al-Haythan's identity
+                            (6 points) Prove Al-Haytham's identity
                             <md>
                                 (n+1)\sum_{i = 1}^{n} i^k = \sum_{i=1}^{n}i^{k+1} +\sum_{p=1}^{n}\sum_{i = 1}^{p} i^k
                             </md>
@@ -33,7 +33,7 @@ In this assignment you will work more with Al-Haythan's identity to justify the 
             <exercise>
                 <statement>
                     <p>
-                        (6 points) Finish the derivation from class using Al-Haythan's identity that
+                        (6 points) Finish the derivation from class using Al-Haytham's identity that
                         <md>
                             \sum_{i = 1}^{n} i^4 = \frac{n^5}{5} + \frac{n^4}{2} + \frac{n^3}{3} - \frac{n}{30}.
                         </md>
