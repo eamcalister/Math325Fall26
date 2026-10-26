@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet margin="1in" bottom="1.25cm" xml:id="325HW10">
+            <title>Math 325 Homework 10</title>
+
+            <introduction>
+                <p>
+                    Due November 2, 2026 (submission on Canvas).
+                </p>
+<p>
+This assignment is about Newton's fluxions and fluents.
+</p>
+                <p>
+                    <term>Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding.</term>
+                </p>
+            </introduction>
+<page>
+            <exercise>
+
+                    <statement>
+                        <p>
+(6 points) A softball diamond is a square with bases on the corners and 60 feet between the bases.
+Two base runners are on the bases; one is running from home to first base and
+the other is running from second base to third.
+Let the first runner's distance from first base be represented by the fluent
+<m>x</m> and the second runner's distance from third base be represented by the
+fluent <m>y</m>.
+A third fluent quantity is <m>s</m>, the distance between the runners.
+Use the Method expressed by Newton to find the fluxion <m>\dot{s}</m> when
+<m>x=y=30</m> and <m>\dot{x}= 20</m> ft/s and <m>\dot{y}= -15</m> ft/s.
+</p>
+                    </statement>
+            
+            </exercise>
+
+<exercise>
+<statement>
+    <p>
+       (6 points) Consider fluent Quantities <m>x</m>, <m>y</m>, and <m>z</m> related by the
+        Equation <m>z=xy</m>. Since this Equation expresses indifferently the Relation between the flowing quantities, you may substitute <m>x+\dot{x}o</m>, <m>y+\dot{y}o</m>, and <m>z+\dot{z}o</m> into the Equation.
+               Simplify this Equation and reject the terms that have <m>o</m>.
+               What have you proven? 
+    </p>
+</statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+  (4 points) Where does the Prob 1, it's solution, and demonstration of the solution in Newton's treatise on fluxions lie on the continuum of rigor we have encountered so far in this class? (Maybe with Babylonian procedure texts at the low end and Euclid on the higher.)          
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+ <p>
+                 Calculate the relationship of the fluxions in the equation
+             </p>
+ 
+             <p>
+                 <md>
+                     x^{3}-ax^{2}+axy-y^{3} = 0
+                 </md>
+             </p>
+ 
+             <p>
+                 using multiplication by the arithmetical sequence <m>4,\ 3,\ 2,\ 1</m>
+                 (Newton asserted that you could use any arithmetical sequence).
+                 What is the relationship between what you find this way and what was found
+                 in Newton's example.
+                 Hint: Clear the denominators on what you find and think about what
+                 relationship your answer could have come from when multiplying by
+                 dimensions.
+             </p>           
+
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+<p>
+    Suppose we wish to find the relationship between the fluents when the
+    relation between the fluxions is
+</p>
+
+<p>
+    <md>
+        \dot{y}= y\dot{x}.
+    </md>
+</p>
+
+<p>
+    <ol>
+        <li>
+            <p>
+                Manipulate the fluxion relation to get <m>\dot{y}/\dot{x}</m>
+                alone and guess a power series for in <m>x</m> for <m>y</m>.
+            </p>
+        </li>
+
+        <li>
+            <p>
+                By anti-fluxioning term by term, get a relation that allows you
+                to solve for the coefficients in the power series, all in terms
+                of the constant coefficient.
+            </p>
+        </li>
+
+        <li>
+            <p>
+                In modern terms, what is <m>y</m> as a function of <m>x</m>?
+            </p>
+        </li>
+    </ol>
+</p>
+    </statement>
+</exercise>
+
+</page>
+<page>
+
+<exercise>
+    <statement>
+<p>
+    One problem that could be solved by the Method of Fluxions would be to find
+    the tangent line to a curve through a given point not on the curve (Newton
+    did not list this as one of the problems).
+    Use his Method to find the tangents to the curve
+</p>
+
+<p>
+    <md>
+        y^{2} = 3x+2
+    </md>
+</p>
+
+<p>
+    through the point <m>(2,3)</m>.
+    Show your solution graphically.
+</p>
+    </statement>
+</exercise>
+</page>
+
+        </worksheet>

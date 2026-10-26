@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet margin="1in" bottom="1.25cm" xml:id="325HW9">
+            <title>Math 325 Homework 9</title>
+
+            <introduction>
+                <p>
+                    Due October 30, 2026 (submission on Canvas).
+                </p>
+<p>
+In this assignment you are asked to reflect on the status of Fermat's methods of quadrature (how he must have found the quadrature of powers) and tangents.
+</p>
+                <p>
+                    <term>Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding.</term>
+                </p>
+            </introduction>
+
+            <exercise>
+
+                    <statement>
+                        <p>
+                                        (6 points) Consider the intentionally provacative statement: <em>Renaissance mathematics (or Fermat's, in particular), despite its admiration for Euclid, more closely resembles Babylonian mathematics than Greek mathematics.</em>
+                        </p>
+                        <p>
+                            Write a couple paragraphs that defend or criticize this statement. In doing so, think about what distinguishes procedure from proof. Use examples from this class as well as your own experience. 
+                        </p>
+                    </statement>
+            
+            </exercise>
+
+        </worksheet>
