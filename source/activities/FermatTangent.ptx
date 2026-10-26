@@ -99,9 +99,13 @@ In this assignment we will explore Fermat's method of finding the slope of a tan
                         </md>
                         Show the additional algebraic steps to show that if we let <m>K = -x^2 - b</m>, then 
                         <md>
-                            K + Ex \gt 0
+                            K + Ex \gt 0 (E&gt;0)
                         </md>
-                        for all <m>E\neq 0</m>.
+                        or
+                        <md>
+                            K+Ex &lt; 0 (E&lt;0).
+                        </md>
+                        
                     </p>
                 </statement>
             </task>
@@ -121,6 +125,13 @@ In this assignment we will explore Fermat's method of finding the slope of a tan
                 </p>
                 <p>
                     You should start by trying to map his notation to the objects in the second proof you did above. Then try to explain his process.
+                </p>
+                <p>
+                    <em>Very helpful:</em> Denote Fermat's <m>E</m> by <m>E_F</m> and observe that it is a <em>vertical</em> displacement from the tangent line to the parabola. So, using <m>E</m> for the quantity in the previous exercise we get
+                    <md>
+                        E_F = \frac{x^2 - b}{x} E
+                    </md>
+                    
                 </p>
             </statement>
         </exercise>
