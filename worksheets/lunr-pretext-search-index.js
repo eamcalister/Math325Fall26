@@ -358,7 +358,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Math 325 Fermat Tangent Activity",
-  "body": " Math 325 Fermat Tangent Activity   Due date on Canvas.  In this assignment we will explore Fermat's method of finding the slope of a tangent line (or a quantity from which we can infer the slope). We'll do this in three steps:   First, we'll do a classical exhaustion proof that the slope of the tangent line to at the point is .    Next, we'll modify our perspective to include a local perturbation and solve for the -intercept of the tangent line.    Finally, you will read Fermat's derivation and try to map it onto the second proof.     Throughout this worksheet, we are considering the parabola and letting be a generic positive value.   Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding.      Let be the slope of the tangent line to the parabola at . We will show that using the Method of Exhaustion. We will assume that the tangent line lies beneath the parabola (this would have been known historically by the theory of conic sections).     (2 points) Let . Use concavity and slopes (draw a figure) to show that Thus, .      (2 points) Let . Use concavity and slopes to show that Thus, .      (4 points) Now use the above inequalities to derive two contradictions which together show that .       Now we want to think about perturbing away from by some amount ( can be positive or negative). Our goal is to find the -intercept, , of the tangent line to the parabola at .     (2 points) Show that if , then the slope is . This way we know what we want to get.      (6 points) Considering the point as a point on the parabola to the left or right of , show that or Show the additional algebraic steps to show that if we let , then for all .      (4 points) Now use a positive value of to produce a contradiction assuming and a negative value of to produce a contradiction when . Now explain how yields the desired result.       (6 points) Now read Fermat's version in Mathematics Emerging , section 3.1.1. He uses some confusing notation and makes one major step that is hard to explain. Your task is to compare the derivations\/proofs you did above to his. What is common and what is different (there are significant similarities)? Why did he create the inequality he created?  You should start by trying to map his notation to the objects in the second proof you did above. Then try to explain his process.    "
+  "body": " Math 325 Fermat Tangent Activity   Due date on Canvas.  In this assignment we will explore Fermat's method of finding the slope of a tangent line (or a quantity from which we can infer the slope). We'll do this in three steps:   First, we'll do a classical exhaustion proof that the slope of the tangent line to at the point is .    Next, we'll modify our perspective to include a local perturbation and solve for the -intercept of the tangent line.    Finally, you will read Fermat's derivation and try to map it onto the second proof.     Throughout this worksheet, we are considering the parabola and letting be a generic positive value.   Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding.      Let be the slope of the tangent line to the parabola at . We will show that using the Method of Exhaustion. We will assume that the tangent line lies beneath the parabola (this would have been known historically by the theory of conic sections).     (2 points) Let . Use concavity and slopes (draw a figure) to show that Thus, .      (2 points) Let . Use concavity and slopes to show that Thus, .      (4 points) Now use the above inequalities to derive two contradictions which together show that .       Now we want to think about perturbing away from by some amount ( can be positive or negative). Our goal is to find the -intercept, , of the tangent line to the parabola at .     (2 points) Show that if , then the slope is . This way we know what we want to get.      (6 points) Considering the point as a point on the parabola to the left or right of , show that or Show the additional algebraic steps to show that if we let , then or       (4 points) Now use a positive value of to produce a contradiction assuming and a negative value of to produce a contradiction when . Now explain how yields the desired result.       (6 points) Now read Fermat's version in Mathematics Emerging , section 3.1.1. He uses some confusing notation and makes one major step that is hard to explain. Your task is to compare the derivations\/proofs you did above to his. What is common and what is different (there are significant similarities)? Why did he create the inequality he created?  You should start by trying to map his notation to the objects in the second proof you did above. Then try to explain his process.    "
 },
 {
   "id": "FermatTangent-2-4",
@@ -385,7 +385,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Now we want to think about perturbing away from by some amount ( can be positive or negative). Our goal is to find the -intercept, , of the tangent line to the parabola at .     (2 points) Show that if , then the slope is . This way we know what we want to get.      (6 points) Considering the point as a point on the parabola to the left or right of , show that or Show the additional algebraic steps to show that if we let , then for all .      (4 points) Now use a positive value of to produce a contradiction assuming and a negative value of to produce a contradiction when . Now explain how yields the desired result.    "
+  "body": "  Now we want to think about perturbing away from by some amount ( can be positive or negative). Our goal is to find the -intercept, , of the tangent line to the parabola at .     (2 points) Show that if , then the slope is . This way we know what we want to get.      (6 points) Considering the point as a point on the parabola to the left or right of , show that or Show the additional algebraic steps to show that if we let , then or       (4 points) Now use a positive value of to produce a contradiction assuming and a negative value of to produce a contradiction when . Now explain how yields the desired result.    "
 },
 {
   "id": "FermatTangent-5",
@@ -395,6 +395,105 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": "  (6 points) Now read Fermat's version in Mathematics Emerging , section 3.1.1. He uses some confusing notation and makes one major step that is hard to explain. Your task is to compare the derivations\/proofs you did above to his. What is common and what is different (there are significant similarities)? Why did he create the inequality he created?  You should start by trying to map his notation to the objects in the second proof you did above. Then try to explain his process.   "
+},
+{
+  "id": "325HW9",
+  "level": "1",
+  "url": "325HW9.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Math 325 Homework 9",
+  "body": " Math 325 Homework 9   Due October 30, 2026 (submission on Canvas).  In this assignment you are asked to reflect on the status of Fermat's methods of quadrature (how he must have found the quadrature of powers) and tangents.   Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding.      (6 points) Consider the intentionally provacative statement: Renaissance mathematics (or Fermat's, in particular), despite its admiration for Euclid, more closely resembles Babylonian mathematics than Greek mathematics.   Write a couple paragraphs that defend or criticize this statement. In doing so, think about what distinguishes procedure from proof. Use examples from this class as well as your own experience.    "
+},
+{
+  "id": "325HW9-2-3",
+  "level": "2",
+  "url": "325HW9.html#325HW9-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding. "
+},
+{
+  "id": "325HW9-3",
+  "level": "2",
+  "url": "325HW9.html#325HW9-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  (6 points) Consider the intentionally provacative statement: Renaissance mathematics (or Fermat's, in particular), despite its admiration for Euclid, more closely resembles Babylonian mathematics than Greek mathematics.   Write a couple paragraphs that defend or criticize this statement. In doing so, think about what distinguishes procedure from proof. Use examples from this class as well as your own experience.   "
+},
+{
+  "id": "325HW10",
+  "level": "1",
+  "url": "325HW10.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Math 325 Homework 10",
+  "body": " Math 325 Homework 10   Due November 2, 2026 (submission on Canvas).  This assignment is about Newton's fluxions and fluents.   Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding.       (6 points) A softball diamond is a square with bases on the corners and 60 feet between the bases. Two base runners are on the bases; one is running from home to first base and the other is running from second base to third. Let the first runner's distance from first base be represented by the fluent and the second runner's distance from third base be represented by the fluent . A third fluent quantity is , the distance between the runners. Use the Method expressed by Newton to find the fluxion when and ft\/s and ft\/s.      (6 points) Consider fluent Quantities , , and related by the Equation . Since this Equation expresses indifferently the Relation between the flowing quantities, you may substitute , , and into the Equation. Simplify this Equation and reject the terms that have . What have you proven?      (4 points) Where does the Prob 1, it's solution, and demonstration of the solution in Newton's treatise on fluxions lie on the continuum of rigor we have encountered so far in this class? (Maybe with Babylonian procedure texts at the low end and Euclid on the higher.)      Calculate the relationship of the fluxions in the equation     using multiplication by the arithmetical sequence (Newton asserted that you could use any arithmetical sequence). What is the relationship between what you find this way and what was found in Newton's example. Hint: Clear the denominators on what you find and think about what relationship your answer could have come from when multiplying by dimensions.      Suppose we wish to find the relationship between the fluents when the relation between the fluxions is        Manipulate the fluxion relation to get alone and guess a power series for in for .    By anti-fluxioning term by term, get a relation that allows you to solve for the coefficients in the power series, all in terms of the constant coefficient.    In modern terms, what is as a function of ?           One problem that could be solved by the Method of Fluxions would be to find the tangent line to a curve through a given point not on the curve (Newton did not list this as one of the problems). Use his Method to find the tangents to the curve     through the point . Show your solution graphically.     "
+},
+{
+  "id": "325HW10-2-3",
+  "level": "2",
+  "url": "325HW10.html#325HW10-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding. "
+},
+{
+  "id": "325HW10-3-1",
+  "level": "2",
+  "url": "325HW10.html#325HW10-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  (6 points) A softball diamond is a square with bases on the corners and 60 feet between the bases. Two base runners are on the bases; one is running from home to first base and the other is running from second base to third. Let the first runner's distance from first base be represented by the fluent and the second runner's distance from third base be represented by the fluent . A third fluent quantity is , the distance between the runners. Use the Method expressed by Newton to find the fluxion when and ft\/s and ft\/s.   "
+},
+{
+  "id": "325HW10-3-2",
+  "level": "2",
+  "url": "325HW10.html#325HW10-3-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  (6 points) Consider fluent Quantities , , and related by the Equation . Since this Equation expresses indifferently the Relation between the flowing quantities, you may substitute , , and into the Equation. Simplify this Equation and reject the terms that have . What have you proven?   "
+},
+{
+  "id": "325HW10-3-3",
+  "level": "2",
+  "url": "325HW10.html#325HW10-3-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  (4 points) Where does the Prob 1, it's solution, and demonstration of the solution in Newton's treatise on fluxions lie on the continuum of rigor we have encountered so far in this class? (Maybe with Babylonian procedure texts at the low end and Euclid on the higher.)   "
+},
+{
+  "id": "325HW10-3-4",
+  "level": "2",
+  "url": "325HW10.html#325HW10-3-4",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Calculate the relationship of the fluxions in the equation     using multiplication by the arithmetical sequence (Newton asserted that you could use any arithmetical sequence). What is the relationship between what you find this way and what was found in Newton's example. Hint: Clear the denominators on what you find and think about what relationship your answer could have come from when multiplying by dimensions.   "
+},
+{
+  "id": "325HW10-3-5",
+  "level": "2",
+  "url": "325HW10.html#325HW10-3-5",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Suppose we wish to find the relationship between the fluents when the relation between the fluxions is        Manipulate the fluxion relation to get alone and guess a power series for in for .    By anti-fluxioning term by term, get a relation that allows you to solve for the coefficients in the power series, all in terms of the constant coefficient.    In modern terms, what is as a function of ?      "
+},
+{
+  "id": "325HW10-4-1",
+  "level": "2",
+  "url": "325HW10.html#325HW10-4-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  One problem that could be solved by the Method of Fluxions would be to find the tangent line to a curve through a given point not on the curve (Newton did not list this as one of the problems). Use his Method to find the tangents to the curve     through the point . Show your solution graphically.   "
 }
 ]
 
