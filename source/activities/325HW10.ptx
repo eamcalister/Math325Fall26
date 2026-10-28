@@ -6,7 +6,7 @@
 
             <introduction>
                 <p>
-                    Due November 2, 2026 (submission on Canvas).
+                    Due November 4, 2026 (submission on Canvas).
                 </p>
 <p>
 This assignment is about Newton's fluxions and fluents.
@@ -56,7 +56,7 @@ Use the Method expressed by Newton to find the fluxion <m>\dot{s}</m> when
 <exercise>
     <statement>
  <p>
-                 Calculate the relationship of the fluxions in the equation
+                 (6 points) Calculate the relationship of the fluxions in the equation
              </p>
  
              <p>
@@ -95,14 +95,14 @@ Use the Method expressed by Newton to find the fluxion <m>\dot{s}</m> when
     <ol>
         <li>
             <p>
-                Manipulate the fluxion relation to get <m>\dot{y}/\dot{x}</m>
+                (3 points) Manipulate the fluxion relation to get <m>\dot{y}/\dot{x}</m>
                 alone and guess a power series for in <m>x</m> for <m>y</m>.
             </p>
         </li>
 
         <li>
             <p>
-                By anti-fluxioning term by term, get a relation that allows you
+                (3 points) By anti-fluxioning term by term, get a relation that allows you
                 to solve for the coefficients in the power series, all in terms
                 of the constant coefficient.
             </p>
@@ -110,7 +110,7 @@ Use the Method expressed by Newton to find the fluxion <m>\dot{s}</m> when
 
         <li>
             <p>
-                In modern terms, what is <m>y</m> as a function of <m>x</m>?
+                (2 points) In modern terms, what is <m>y</m> as a function of <m>x</m>?
             </p>
         </li>
     </ol>
@@ -124,7 +124,7 @@ Use the Method expressed by Newton to find the fluxion <m>\dot{s}</m> when
 <exercise>
     <statement>
 <p>
-    One problem that could be solved by the Method of Fluxions would be to find
+    (4 points) One problem that could be solved by the Method of Fluxions would be to find
     the tangent line to a curve through a given point not on the curve (Newton
     did not list this as one of the problems).
     Use his Method to find the tangents to the curve
