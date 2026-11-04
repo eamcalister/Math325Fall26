@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet margin="1in" bottom="1.25cm" xml:id="325HW11">
+            <title>Math 325 Homework 11</title>
+
+            <introduction>
+                <p>
+                    Due November 11, 2026 (submission on Canvas).
+                </p>
+<p>
+This assignment has the following readings:
+<ul>
+    <li>
+        <p>
+            Liebniz' <em>A New Method for Maxima and Minima</em> starting on p. 127 of <em>Mathematics Emerging</em>,
+        </p>
+    </li>
+    <li>
+        <p>
+            the section on the Transmutation Theorem starting on p. 23 of <em>The Calculus Gallery</em>, and
+        </p>
+    </li>
+    <li>
+        <p>
+            Berkeley's objections to calculus beginning on p. 272 of <em>Mathematics Emerging</em>.
+        </p>
+    </li>
+</ul> 
+</p>
+                <p>
+                    <term>Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding.</term>
+                </p>
+            </introduction>
+
+<page>
+<exercise>
+    <statement>
+        <p>
+            In the fourth paragraph of <em>A New Method for Maxima and Minima</em> Leibniz has some issue with the <q>ambiguous signs</q> in the quotient rule. Can you make any sense of what he's saying?
+        </p>
+    </statement>
+</exercise>    
+
+<exercise>
+    <statement>
+        <p>
+            In the final paragraph of <em>A New Method for Maxima and Minima</em>, Leibniz gives an example of using his method in an optimization problem. Carefully read his solution and explain its similarities to the solution to the following Calc I problem:
+        </p>
+        <blockquote>
+            <p>
+                A small island is 4 miles from the nearest point <m>P</m> on the straight
+                shoreline of a large lake. If a woman on the island can row a boat 2 miles per hour and can walk 3 miles per hour, where should the boat be landed in order to arrive at a town 9 miles down the shore from <m>P</m> in the least time? Let <m>x</m> be the distance (in miles) between point <m>P</m> and where the boat lands on the lakeshore.
+            </p>
+        </blockquote>
+    </statement>
+</exercise>
+
+
+<exercise>
+    <statement>
+            <p>
+             Use the Transmutation Theorem to compute
+             <md>
+            \int_{0}^{32}y\,dx,
+            </md>
+            where <m>y^{5} = x^{3}</m>. Don't just solve for <m>y</m> in terms of <m>x</m> and do it using your previously known techniques. Instead, find <m>\frac{dy}{dx}</m> the way Leibniz (or Newton, really) would have, and use the fact that <m>y^{5} = x^{3}</m> to get <m>z = \frac{2}{5}y</m> in the theorem. Then you can do it without actually anti-differentiating anything.
+            </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            Read Berkeley's objections to Calculus starting of p. 272 in <em>Mathematics Emerging</em>. Do you feel Berkeley's critique is justified or not?
+        </p>
+    </statement>
+</exercise>
+
+</page>
+  
+
+        </worksheet>

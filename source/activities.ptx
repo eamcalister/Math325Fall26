@@ -19,7 +19,7 @@
     <xi:include href="./activities/FermatTangent.ptx"/>
     <xi:include href="./activities/325HW9.ptx"/>
     <xi:include href="./activities/325HW10.ptx"/>
-
+    <xi:include href="./activities/325HW11.ptx"/>
     <!-- Add more xi:include files here to include them in the main course -->
   </article>
 </pretext>
