@@ -58,7 +58,24 @@ This assignment has the following readings:
 
 
 <exercise>
-    <statement>
+    <introduction>
+        <p>
+            In this exercise we want to compare the technique Newton used for integration to something Leibniz did.
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                Use the method from Prop. III, Theorem I, of Newton's <em>Treatise of the quadrature of curves</em> on p. 119 of <em>Mathematics Emerging</em> (like we did in class) to find
+                <md>
+                    \int_{0}^{32} x^{3/5}\, dx.
+                </md>
+                
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
             <p>
              Use the Transmutation Theorem to compute
              <md>
@@ -66,7 +83,15 @@ This assignment has the following readings:
             </md>
             where <m>y^{5} = x^{3}</m>. Don't just solve for <m>y</m> in terms of <m>x</m> and do it using your previously known techniques. Instead, find <m>\frac{dy}{dx}</m> the way Leibniz (or Newton, really) would have, and use the fact that <m>y^{5} = x^{3}</m> to get <m>z = \frac{2}{5}y</m> in the theorem. Then you can do it without actually anti-differentiating anything.
             </p>
-    </statement>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Describe the principal differences between the techniques you used above. Which technique feels more natural to you and why?
+            </p>
+        </statement>
+    </task>
 </exercise>
 
 <exercise>
