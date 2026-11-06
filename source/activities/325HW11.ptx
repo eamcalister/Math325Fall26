@@ -18,6 +18,11 @@ This assignment has the following readings:
     </li>
     <li>
         <p>
+            Proposition III, Theorem I of Newton's first publication of his Calculus on p. 119 of <em>Mathematics Emerging</em>.
+        </p>
+    </li>
+    <li>
+        <p>
             the section on the Transmutation Theorem starting on p. 23 of <em>The Calculus Gallery</em>, and
         </p>
     </li>
@@ -37,7 +42,7 @@ This assignment has the following readings:
 <exercise>
     <statement>
         <p>
-            In the fourth paragraph of <em>A New Method for Maxima and Minima</em> Leibniz has some issue with the <q>ambiguous signs</q> in the quotient rule. Can you make any sense of what he's saying?
+            (4 points) In the fourth paragraph of <em>A New Method for Maxima and Minima</em> Leibniz has some issue with the <q>ambiguous signs</q> in the quotient rule. Can you make any sense of what he's saying?
         </p>
     </statement>
 </exercise>    
@@ -45,7 +50,7 @@ This assignment has the following readings:
 <exercise>
     <statement>
         <p>
-            In the final paragraph of <em>A New Method for Maxima and Minima</em>, Leibniz gives an example of using his method in an optimization problem. Carefully read his solution and explain its similarities to the solution to the following Calc I problem:
+            (6 points) In the final paragraph of <em>A New Method for Maxima and Minima</em>, Leibniz gives an example of using his method in an optimization problem. Carefully read his solution and explain its similarities to the solution to the following Calc I problem:
         </p>
         <blockquote>
             <p>
@@ -60,7 +65,7 @@ This assignment has the following readings:
 <exercise>
     <introduction>
         <p>
-            In this exercise we want to compare the technique Newton used for integration to something Leibniz did.
+            (10 points) In this exercise we want to compare the technique Newton used for integration to something Leibniz did.
         </p>
     </introduction>
     <task>
@@ -97,7 +102,7 @@ This assignment has the following readings:
 <exercise>
     <statement>
         <p>
-            Read Berkeley's objections to Calculus starting of p. 272 in <em>Mathematics Emerging</em>. Do you feel Berkeley's critique is justified or not?
+            (4 points) Read Berkeley's objections to Calculus starting of p. 272 in <em>Mathematics Emerging</em>. Do you feel Berkeley's critique is justified or not?
         </p>
     </statement>
 </exercise>
