@@ -494,6 +494,60 @@ var ptx_lunr_docs = [
   "number": "6",
   "title": "",
   "body": "  (4 points) One problem that could be solved by the Method of Fluxions would be to find the tangent line to a curve through a given point not on the curve (Newton did not list this as one of the problems). Use his Method to find the tangents to the curve     through the point . Show your solution graphically.   "
+},
+{
+  "id": "325HW11",
+  "level": "1",
+  "url": "325HW11.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Math 325 Homework 11",
+  "body": " Math 325 Homework 11   Due November 11, 2026 (submission on Canvas).  This assignment has the following readings:   Liebniz' A New Method for Maxima and Minima starting on p. 127 of Mathematics Emerging ,    Proposition III, Theorem I of Newton's first publication of his Calculus on p. 119 of Mathematics Emerging .    the section on the Transmutation Theorem starting on p. 23 of The Calculus Gallery , and    Berkeley's objections to calculus beginning on p. 272 of Mathematics Emerging .      Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding.       (4 points) In the fourth paragraph of A New Method for Maxima and Minima Leibniz has some issue with the ambiguous signs in the quotient rule. Can you make any sense of what he's saying?      (6 points) In the final paragraph of A New Method for Maxima and Minima , Leibniz gives an example of using his method in an optimization problem. Carefully read his solution and explain its similarities to the solution to the following Calc I problem:   A small island is 4 miles from the nearest point on the straight shoreline of a large lake. If a woman on the island can row a boat 2 miles per hour and can walk 3 miles per hour, where should the boat be landed in order to arrive at a town 9 miles down the shore from in the least time? Let be the distance (in miles) between point and where the boat lands on the lakeshore.       (10 points) In this exercise we want to compare the technique Newton used for integration to something Leibniz did.     Use the method from Prop. III, Theorem I, of Newton's Treatise of the quadrature of curves on p. 119 of Mathematics Emerging (like we did in class) to find       Use the Transmutation Theorem to compute where . Don't just solve for in terms of and do it using your previously known techniques. Instead, find the way Leibniz (or Newton, really) would have, and use the fact that to get in the theorem. Then you can do it without actually anti-differentiating anything.      Describe the principal differences between the techniques you used above. Which technique feels more natural to you and why?       (4 points) Read Berkeley's objections to Calculus starting of p. 272 in Mathematics Emerging . Do you feel Berkeley's critique is justified or not?     "
+},
+{
+  "id": "325HW11-2-3",
+  "level": "2",
+  "url": "325HW11.html#325HW11-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding. "
+},
+{
+  "id": "325HW11-3-1",
+  "level": "2",
+  "url": "325HW11.html#325HW11-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  (4 points) In the fourth paragraph of A New Method for Maxima and Minima Leibniz has some issue with the ambiguous signs in the quotient rule. Can you make any sense of what he's saying?   "
+},
+{
+  "id": "325HW11-3-2",
+  "level": "2",
+  "url": "325HW11.html#325HW11-3-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  (6 points) In the final paragraph of A New Method for Maxima and Minima , Leibniz gives an example of using his method in an optimization problem. Carefully read his solution and explain its similarities to the solution to the following Calc I problem:   A small island is 4 miles from the nearest point on the straight shoreline of a large lake. If a woman on the island can row a boat 2 miles per hour and can walk 3 miles per hour, where should the boat be landed in order to arrive at a town 9 miles down the shore from in the least time? Let be the distance (in miles) between point and where the boat lands on the lakeshore.    "
+},
+{
+  "id": "325HW11-3-3",
+  "level": "2",
+  "url": "325HW11.html#325HW11-3-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  (10 points) In this exercise we want to compare the technique Newton used for integration to something Leibniz did.     Use the method from Prop. III, Theorem I, of Newton's Treatise of the quadrature of curves on p. 119 of Mathematics Emerging (like we did in class) to find       Use the Transmutation Theorem to compute where . Don't just solve for in terms of and do it using your previously known techniques. Instead, find the way Leibniz (or Newton, really) would have, and use the fact that to get in the theorem. Then you can do it without actually anti-differentiating anything.      Describe the principal differences between the techniques you used above. Which technique feels more natural to you and why?    "
+},
+{
+  "id": "325HW11-3-4",
+  "level": "2",
+  "url": "325HW11.html#325HW11-3-4",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  (4 points) Read Berkeley's objections to Calculus starting of p. 272 in Mathematics Emerging . Do you feel Berkeley's critique is justified or not?   "
 }
 ]
 
