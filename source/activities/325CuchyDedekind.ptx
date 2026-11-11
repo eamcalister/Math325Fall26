@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet margin="1in" bottom="1.25cm" xml:id="325HW12">
+            <title>Math 325 Homework 12 (Cauchy and Dedekind)</title>
+
+            <introduction>
+                <p>
+                    Due November 11, 2026 (submission on Canvas).
+                </p>
+<p>
+This assignment has the following readings:
+<ul>
+    <li>
+        <p>
+            Theorem III in Chapter 6 and Theorem I in Note III of Cauchy's <em>Cours d'Analyse</em>
+        </p>
+    </li>
+    <li>
+        <p>
+           <em>Essays on the Theory of Numbers</em> by Richard Dedekind. 
+        </p>
+    </li>
+</ul> 
+</p>
+                <p>
+                    <term>Generative AI is forbidden on this assignment. The goal is for you to understand the Method of Exhaustion prior to encountering it in ancient texts. Struggling with it with only your classmates will help your understanding.</term>
+                </p>
+            </introduction>
+
+<page>
+<exercise>
+    <introduction>
+        <p>
+            In this exercise we want to analyze two arguments for Cauchy.
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                Carefully read the example that Cauchy gives for Theorem III (the Alternating Series Test) in Chapter 6 (p. 98). Follow Cauchy's argument using the partial sums of the series. Identify the sequences that increase or decrease, explain why they are bounded, and describe how Cauchy concludes that the original series has a limiting value.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Carefully read Cauchy's proof of Theorem I in Note III (p. 309). Identify the sequences Cauchy produces, explain why they are monotone and bounded, and describe how they narrow down the possible location of the desired value. At precisely what point does Cauchy conclude that his construction determines an actual real number?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Compare the two arguments. In both cases, Cauchy constructs monotone sequences that remain bounded. Why is the statement “a bounded monotone sequence of real numbers has a real limit” important to both proofs? Does Cauchy establish this property of the real numbers, or does his argument appear to assume it? Explain why establishing this property might require us to say something more about what the real numbers are.
+            </p>
+        </statement>
+    </task>
+</exercise>    
+
+
+</page>
+  
+
+        </worksheet>
