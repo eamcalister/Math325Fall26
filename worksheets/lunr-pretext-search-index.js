@@ -548,6 +548,42 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "",
   "body": "  (4 points) Read Berkeley's objections to Calculus starting of p. 272 in Mathematics Emerging . Do you feel Berkeley's critique is justified or not?   "
+},
+{
+  "id": "325HW12",
+  "level": "1",
+  "url": "325HW12.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Math 325 Homework 12 (Cauchy and Dedekind)",
+  "body": " Math 325 Homework 12 (Cauchy and Dedekind)   Due November 11, 2026 (submission on Canvas).  This assignment has the following readings:   Theorem III in Chapter 6 and Theorem I in Note III of Cauchy's Cours d'Analyse      Essays on the Theory of Numbers by Richard Dedekind.      Generative AI is forbidden on this assignment. Struggling with it with only your classmates will help your understanding.       In this exercise we want to analyze two arguments for Cauchy.     Carefully read the example that Cauchy gives for Theorem III (the Alternating Series Test) in Chapter 6 (p. 98). Follow Cauchy's argument using the partial sums of the series. Identify the sequences that increase or decrease, explain why they are bounded, and describe how Cauchy concludes that the original series has a limiting value.      Carefully read Cauchy's proof of Theorem I in Note III (p. 309). Identify the sequences Cauchy produces, explain why they are monotone and bounded, and describe how they narrow down the possible location of the desired value. At precisely what point does Cauchy conclude that his construction determines an actual real number?      Compare the two arguments. In both cases, Cauchy constructs monotone sequences that remain bounded. Why is the statement “a bounded monotone sequence of real numbers has a real limit” important to both proofs? Does Cauchy establish this property of the real numbers, or does his argument appear to assume it? Explain why establishing this property might require us to say something more about what the real numbers are.     In class, we used Dedekind's construction of the real numbers to show that Cauchy's two sequences of approximations determine a unique real number . Then we have and   Therefore, both the lower approximations and the upper approximations eventually lie arbitrarily close to .  Cauchy's construction also guarantees that the function has opposite signs at these approximations. Suppose that     for every .  Cauchy did not state continuity using the modern - definition. For the next exercise, however, we will use that definition to make the final step of the argument precise.  A function is continuous at if, for every , there is a such that       Use this definition of continuity to show that Cauchy's satisfies as follows:     If , then there is a such that    Hint: Choose , or a smaller positive number such as .      If , then there is a such that    Hint: Choose , or a smaller positive number such as .      Show that cannot be positive by contradiction as follows:    If , then there is some such that implies .    Explain why for some . Why does this create a contradiction?        Use the same idea as the last task to show that also cannot be negative.      "
+},
+{
+  "id": "325HW12-2-3",
+  "level": "2",
+  "url": "325HW12.html#325HW12-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Generative AI is forbidden on this assignment. Struggling with it with only your classmates will help your understanding. "
+},
+{
+  "id": "325HW12-3-1",
+  "level": "2",
+  "url": "325HW12.html#325HW12-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  In this exercise we want to analyze two arguments for Cauchy.     Carefully read the example that Cauchy gives for Theorem III (the Alternating Series Test) in Chapter 6 (p. 98). Follow Cauchy's argument using the partial sums of the series. Identify the sequences that increase or decrease, explain why they are bounded, and describe how Cauchy concludes that the original series has a limiting value.      Carefully read Cauchy's proof of Theorem I in Note III (p. 309). Identify the sequences Cauchy produces, explain why they are monotone and bounded, and describe how they narrow down the possible location of the desired value. At precisely what point does Cauchy conclude that his construction determines an actual real number?      Compare the two arguments. In both cases, Cauchy constructs monotone sequences that remain bounded. Why is the statement “a bounded monotone sequence of real numbers has a real limit” important to both proofs? Does Cauchy establish this property of the real numbers, or does his argument appear to assume it? Explain why establishing this property might require us to say something more about what the real numbers are.    "
+},
+{
+  "id": "325HW12-3-10",
+  "level": "2",
+  "url": "325HW12.html#325HW12-3-10",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Use this definition of continuity to show that Cauchy's satisfies as follows:     If , then there is a such that    Hint: Choose , or a smaller positive number such as .      If , then there is a such that    Hint: Choose , or a smaller positive number such as .      Show that cannot be positive by contradiction as follows:    If , then there is some such that implies .    Explain why for some . Why does this create a contradiction?        Use the same idea as the last task to show that also cannot be negative.    "
 }
 ]
 
